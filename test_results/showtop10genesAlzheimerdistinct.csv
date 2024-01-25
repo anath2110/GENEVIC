@@ -1,0 +1,11 @@
+gene,func,rank,snpcoord,trait
+TREM2,exonic,0.2083,6_41161514,Alzheimer
+SORL1,intronic,0.197,11_121564878,Alzheimer
+APOC1(dist=345),downstream,0.1667,19_44919689,Alzheimer
+APOE,exonic,0.1285,19_44908822,Alzheimer
+APOE,exonic,0.125,19_44908684,Alzheimer
+"BIN1(dist=28080),CYP27C1(dist=48600)",intergenic,0.108,2_127135234,Alzheimer
+ABI3,exonic,0.0893,17_49219935,Alzheimer
+TREM2,exonic,0.0729,6_41161469,Alzheimer
+DSG2,intronic,0.0657,18_31508995,Alzheimer
+APOE,intronic,0.0625,19_44906745,Alzheimer
