@@ -121,7 +121,7 @@ If you are using LaTeX, you can use the following BibTeX entry:
 >	  publisher={Publisher},\
 >	  doi={xx.xxxx/yyyyy}\
 >	}\
-> \```
+\```
 
 
 
