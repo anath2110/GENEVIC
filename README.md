@@ -120,7 +120,7 @@ If you are using LaTeX, you can use the following BibTeX entry:
 >	  year={20xx},
 >	  publisher={Publisher},
 >	  doi={xx.xxxx/yyyyy}
-	}
+>	}
 \```
 
 
