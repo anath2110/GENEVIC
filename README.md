@@ -99,13 +99,31 @@ Please make sure to update tests as appropriate.
 
 ---
 
-## License
+## Cite Us
 
-Include a section for the license. Specify the type of license the project uses.
+If you use this software in your research or wish to refer to its results, please cite the following paper:
 
-\```md
-[MIT](https://choosealicense.com/licenses/mit/)
+Authors. (Year). Title. Journal, Volume(Issue), Page numbers. DOI
+
+### BibTeX Entry for LaTeX Users
+
+If you are using LaTeX, you can use the following BibTeX entry:
+
+\```latex
+>	@article{YourLastNameYear,
+>	  title={Title of the Paper},
+>	  author={First Author and Second Author and Others},
+>	  journal={Journal Name},
+>	  volume={xx},
+>	  number={yy},
+>	  pages={zz--aa},
+>	  year={20xx},
+>	  publisher={Publisher},
+>	  doi={xx.xxxx/yyyyy}
+	}
 \```
+
+
 
 ---
 
