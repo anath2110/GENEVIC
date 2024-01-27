@@ -1,15 +1,14 @@
 # GENEVIIC
 This is an intelligent chat assistant which is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
 ---
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 	- [PGS Chat](#pgs-chat)
 	- [GeneAPI Chat](#geneapi-chat)
 	- [Literature Search](#literature-search)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Local Installation](#local-installation)
+- [Web Usage](#web-usage)
 - [Contact](#contact)
 ---
 ## Introduction
@@ -20,7 +19,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
     - **PGS Chat:** Retrieve information from and visualize any custom database.
     - **GeneAPI Chat:** Explore Bioinformatics websites via automated API calls.
     - **Literature Search:** Search for relevant literature evidence in well-known portals for a given search query.
-
+---
 ## Features
 ### PGS Chat
 - Retrieve information from and visualize custom database.
@@ -36,10 +35,8 @@ This is an intelligent chat assistant which is crafted to facilitate research in
       - Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
 - Download the query results as CSV for retrospective analysis and interpretation.
 - **Query ChatGPT directly** to generate more information or novel research hypothesis.
----
 
 ### Gene API Chat
-
 - Explore external Bioinformatics websites via automated web API calls.
 - Demo APIs explored: **STRING** and **ENRICHR**.
 - Generate **gene-gene interaction network**, one or more gene names as input.
@@ -48,10 +45,8 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - Perform **gene enrichment analysis** with reference gene set libraries, given gene list as input.
   - Visualize the **network graph**.
   - Download the enrichment results as CSV and/or the visualizations in known image formats.
----
 
 ### Literature Search
-
 - Search for **literature evidence in PubMed, Google Scholar, or Arxiv**.
 - Search in 1 or 2 or all of these websites at the same time.
 	- Example search queries:
@@ -74,19 +69,16 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ### Step-wise Instructions 
 ## Step 1. Clone this repository
 
-Open VS Code and Clone this repository:
+Clone this repository:
 
-URL: https://github.com/Microsoft-USEduAzure/OpenAIWorkshop.git
-
-![](../Images/lab-3-data-2.png)
 
 From the terminal, navigate to ```cd labs/Lab_3_Data_Analytics```
 
 ## Step 2. Set up enviromental variables
 
- Provide settings for Open AI and Database.You can either create a file named `secrets.env` file in the root of this folder (labs/lab_3_data_analytics) as below or do it using the app's UI later on (*easier*).
+Provide settings for Open AI and Database. You can either create a file named `secrets.env` file in the root of this folder (labs/lab_3_data_analytics) as below or do it using the app's GUI later on.
 
-    - Option 1: use built-in SQLITE (*recommended*). Then you don't need to install SQL Server.
+    - Option 1: use built-in SQLITE. Then you don't need to install SQL Server.
 
         AZURE_OPENAI_API_KEY="9999999999999999999999999"
         AZURE_OPENAI_GPT4_DEPLOYMENT="NAME_OF_GPT_4_DEPLOYMENT"
@@ -112,35 +104,31 @@ From the terminal, navigate to ```cd labs/Lab_3_Data_Analytics```
 
 ## Step 3. Configure development environment
 
-> **NOTE** all activities in this step will performed using the command line in VS Code terminal
+> **NOTE** all activities in this step will performed using the command line 
 
-### Step 3.1 Navigate to the root directory of this lab
+### Step 3.1 Navigate to the root directory of this project
 
 Navigate to ```cd labs/Lab_3_Data_Analytics```
 
-### Step 3.2 Create a python environment with version from 3.7 and 3.10
+### Step 3.2 Create a python environment 
 
 This step is required **ONLY if did not perform this earlier as part of the pre-requisites**
 
-    - [Python 3+](https://www.python.org/downloads/)
-        - **Important**: Python and the pip package manager must be in the path in Windows for the setup scripts to work.
-        - **Important**: Ensure you can run `python --version` from console. On Ubuntu, you might need to run `sudo apt install python-is-python3` to link `python` to `python3`.
-
 ### Step 3.3  Import the requirements.txt
 
-run the command: `pip install -r requirements.txt`
+Run the command: `pip install -r requirements.txt`
 
 ### Step 3.4 Run the application locally
 
-To run the application from the command line: `streamlit run app.py`
-
+To run the application from the command line: `streamlit run app.py` \
 You will see the application load in your browser.
+
 ---
 
 ## Web Usage
-
 Access the web application at: [https://geneviic-anathjan24.streamlit.app/](https://geneviic-anathjan24.streamlit.app/)
 
+---
 ## Credits
 
 This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory](https://www.uth.edu/bioinfo/) and [Department of Health Data Science and Artificial Intelligence](https://sbmi.uth.edu/prospective-students/dsai.htm) at [McWilliams School of Biomedicalinformatics at UTHealth Houston](https://sbmi.uth.edu/).
