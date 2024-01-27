@@ -5,7 +5,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - [Introduction](#introduction)
 - [Features](#features)
 	- [PGS Chat](#pgs-chat)
-	- [GeneAPI Chat](#gene-api-chat)
+	- [Gene API Chat](#gene-api-chat)
 	- [Literature Search](#literature-search)
 - [Local Installation](#local-installation)
 - [Web Usage](#web-usage)
