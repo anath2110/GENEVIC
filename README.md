@@ -69,7 +69,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ### Step-wise Instructions 
 ## Step 1. Clone this repository
 
-Clone this repository:git clone \
+Clone this repository:git clone https://github.com/anath2110/GENEVIIC.git \
 From the terminal, navigate to ```cd [path-to-project-root-folder]```
 
 ## Step 2. Set up enviromental variables
