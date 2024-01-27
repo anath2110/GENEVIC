@@ -122,7 +122,7 @@ To run the application from the command line: `streamlit run app.py` \
 You will see the application load in your browser.
 
 > **Note**: For troubleshoot, see [here](https://github.com/anath2110/GENEVIIC/blob/main/TSHOOT.md)
-> **Note**: For Azure Open AI subscriotion and set up : see [here]()
+> **Note**: For Azure Open AI subscriotion and set up : see [here](https://github.com/anath2110/GENEVIIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx)
 ---
 
 ## Web Usage
