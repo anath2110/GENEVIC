@@ -99,9 +99,9 @@ This project was made possible by the dedicated efforts of our research team and
 
 ### Major Reference Websites
 - **[STRING API Documentation](https://string-db.org/help/api/)**: \
-  This is the API that is included for generating and visualizing gene-gene interation network in the module 
+  Documentation for the web API of the STRING API website. This is the backbone web API used as one of the demos in the Gene API chat module. This web API is primarily used to generate and visualize the gene-gene interaction network graph.
 - **[ENRICHR API Documentation](https://maayanlab.cloud/Enrichr/help#api)**: \
-     Documentation for the web API for ENRICHR website. This is the backbone web API used as one of the demos in the Gene API chat module.
+     Documentation for the web API for ENRICHR website. This is the backbone web API used as one of the demos in the Gene API chat module. This web API is primarily used to perform gene enrichment ananlysis for a set of genes using the reference gene set libraries.
 - **[Langchain's PubMed API wrapper](https://api.python.langchain.com/en/latest/_modules/langchain_community/utilities/pubmed.html#)**:
 - **[Langchain's PubMed API wrapper source code](https://api.python.langchain.com/en/latest/utilities/langchain_community.utilities.pubmed.PubMedAPIWrapper.html#langchain_community.utilities.pubmed.PubMedAPIWrapper)**:\
 - **[Q&A with RAG](https://python.langchain.com/docs/use_cases/question_answering/)**:\
