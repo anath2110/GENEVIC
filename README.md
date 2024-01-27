@@ -1,7 +1,6 @@
 
 # GENEVIIC
 This is an intelligent chat assistant which is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
-
 ---
 
 ## Table of Contents
@@ -25,7 +24,6 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 
 ## Features
 ### PGS Chat
-
 - Retrieve information from and visualize custom database.
 - Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](https://github.com/anath2110/GENEVIIC_Supplimentary.git) for more information.
 - **Code Writer**: Auto-translate prompts/questions in natural language (e.g., English (US)) to SQL queries or Python code.
@@ -36,7 +34,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - **Query ChatGPT directly** to generate more information or novel research hypothesis.
 ---
 
-### GeneAPI Chat
+### Gene API Chat
 
 - Explore external Bioinformatics websites via automated web API calls.
 - Demo APIs explored: **STRING** and **ENRICHR**.
@@ -51,11 +49,19 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ### Literature Search
 
 - Search for **literature evidence in PubMed, Google Scholar, or Arxiv**.
-  - Search in 1 or 2 or all of these websites at the same time.
-  - Display the **name** and **links** of the articles for any given search query.
+- Search in 1 or 2 or all of these websites at the same time.
+	- Example search queries:
+ 		- Search for articles with gene APOE and Alzheimer in Pubmed
+   		- Search for articles with Schizophrenia in Google Scholar
+     		- articles with gene TREM2 and Schizophrenia in Arxiv
+       		- Search for articles with APOE gene name and trait Alzheiemr	 	 	 	 
+- Displays the **name** and **links** of the articles for any given search query.
+- Displays the **abstract** of the article, given its link as search query.
+ 	- Example:
+    		- [Link to the paper](https://linkto-you-paper)
 ---
-
-## Installation
+## Prerequisites
+## Local Installation
 
 Provide step-by-step instructions on how to get a development environment running.
 
@@ -64,20 +70,15 @@ git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 \```
+\```
 
 ---
 
-## Usage
+## Web Usage
 
 Explain how to run the Streamlit app.
 
-\```bash
-streamlit run yourapp.py
-\```
 
-Include information about how to navigate the app and any important usage notes.
-
----
 
 
 ## Credits
