@@ -1,11 +1,19 @@
 
 # GENEVIIC
 
-## GENetic data Exploration and Visualization Intelligent Interactive Console
+## Introduction
 
-Short description of your app and what it does.
+- **A smart chat assistant.**
+- **Augmented by ChatGPT/GPT-4 implemented via Azure OpenAI platform.**
+- Run from your local browser or Streamlit cloud.
+- Designed to support novice to intermediate research in Biomedical Informatics.
+- Tasks that can be performed with GENEVIIC:
+    - **PGS Chat:** Retrieve information from and visualize any custom database.
+    - **GeneAPI Chat:** Explore Bioinformatics websites via automated API calls.
+    - **Literature Search:** Search for relevant literature evidence in well-known portals for a given search query.
 
 ---
+
 
 ## Table of Contents
 
@@ -19,18 +27,6 @@ Short description of your app and what it does.
 
 ---
 
-## Introduction
-
-- **A smart chat assistant.**
-- **Augmented by ChatGPT/GPT-4 implemented via Azure OpenAI platform.**
-- Run from your local browser or Streamlit cloud.
-- Designed to support novice to intermediate research in Biomedical Informatics.
-- Tasks that can be performed with GENEVIIC:
-    - **PGS Chat:** Retrieve information from and visualize any custom database.
-    - **GeneAPI Chat:** Explore Bioinformatics websites via automated API calls.
-    - **Literature Search:** Search for relevant literature evidence in well-known portals for a given search query.
-
----
 
 ## Features
 ### PGS Chat
@@ -117,8 +113,10 @@ If you are using LaTeX, you can use the following BibTeX entry:
 
 ## Contact
 
-Your Name – [@YourTwitter](https://twitter.com/your_username) - email@example.com
+Your Name – nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
 
 Project Link: [https://github.com/anath2110/GENEVIIC.git](https://github.com/anath2110/GENEVIIC.git)
+
+Supplementary materials for this project : [https://github.com/anath2110/GENEVIIC_Supplimentary.git](https://github.com/anath2110/GENEVIIC_Supplimentary.git)
 
 ---
