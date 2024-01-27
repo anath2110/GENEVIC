@@ -105,11 +105,23 @@ This project was made possible by the dedicated efforts of our research team and
 ### Major Reference Websites
 - **[STRING API Documentation](https://string-db.org/help/api/)**: This is the API that is included for generating and visualizing gene-gene interation network in the module 
 - **[ENRICHR API Documentation](https://maayanlab.cloud/Enrichr/help#api)**: Description of the information or data provided by the website.
+- Langchain's PubMed API wrapper:
+https://api.python.langchain.com/en/latest/_modules/langchain_community/utilities/pubmed.html#
+#..........................................................................................
+References:
+Langchain's PubMed API wrapper documentation:
+https://api.python.langchain.com/en/latest/utilities/langchain_community.utilities.pubmed.PubMedAPIWrapper.html#langchain_community.utilities.pubmed.PubMedAPIWrapper
+Q&A with RAG:https://python.langchain.com/docs/use_cases/question_answering/
+Google Scholar (SERP) API documentation:https://serpapi.com/google-scholar-api
+Langchain SERP API wrapper:https://python.langchain.com/docs/integrations/providers/serpapi
+Langchain Arxiv API wrapper:https://python.langchain.com/docs/integrations/tools/arxiv
+#........................................................................................
 - ...
 
 ### GitHub Repositories and Resources
-- **[Repository/Resource Name 1](GitHub URL 1)**: Description of how the repository/resource contributed to the project.
-- **[Repository/Resource Name 2](GitHub URL 2)**: Description of how the repository/resource contributed to the project.
+- **[Repository/Resource Name 1](https://github.com/Microsoft-USEduAzure/OpenAIWorkshop.git)**: Description of how the repository/resource contributed to the project.
+- **[Repository/Resource Name 2](https://github.com/Jeffz999/Medbot.git)**: Description of how the repository/resource contributed to the project.
+- 
 
 ---
 Our heartfelt thanks go to each team member, department, and external contributor for their indispensable roles in the fruition of this project.
