@@ -6,7 +6,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 
 
 ## Table of Contents
-- Introduction (#introduction)
+- [Introduction](#introduction)
 - [Features](#features)
 	- [PGS Chat](#pgs-chat)
 	- [GeneAPI Chat](#geneapi-chat)
