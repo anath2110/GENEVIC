@@ -4,7 +4,7 @@
 ## Introduction
 
 - **A smart chat assistant.**
-- **Augmented by Generative Ai models implemented via Azure OpenAI platform.**
+- **Augmented by Generative AI models implemented via Azure OpenAI platform.**
 - Run from your local browser or Streamlit cloud.
 - Designed to support novice to intermediate research in Biomedical Informatics.
 - Tasks that can be performed with GENEVIIC:
