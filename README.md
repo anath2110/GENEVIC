@@ -15,8 +15,6 @@ Short description of your app and what it does.
 	- [Literature Search](#literature-search)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -89,16 +87,6 @@ Include information about how to navigate the app and any important usage notes.
 
 ---
 
-## Contributing
-
-State if you are open to contributions and what your requirements are for accepting them.
-
-For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
----
-
 ## Cite Us
 
 If you use this software in your research or wish to refer to its results, please cite the following paper:
@@ -131,6 +119,6 @@ If you are using LaTeX, you can use the following BibTeX entry:
 
 Your Name – [@YourTwitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+Project Link: [https://github.com/anath2110/GENEVIIC.git](https://github.com/anath2110/GENEVIIC.git)
 
 ---
