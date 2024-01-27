@@ -27,10 +27,11 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ### PGS Chat
 
 - Retrieve information from and visualize custom database.
-- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](#Supplementary-Materials) for more information.
-- **Code Writer**: Auto-translate queries in natural language (e.g., English (US)) to SQL queries or Python code.
-  - Show the top 10 ranked genes for Alzheimer.
-  - Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
+- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](https://github.com/anath2110/GENEVIIC_Supplimentary.git) for more information.
+- **Code Writer**: Auto-translate prompts/questions in natural language (e.g., English (US)) to SQL queries or Python code.
+  - Example prompts:
+  	- Show the top 10 ranked genes for Alzheimer.
+  	- Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
 - Download the query results as CSV for retrospective analysis and interpretation.
 - **Query ChatGPT directly** to generate more information or novel research hypothesis.
 ---
