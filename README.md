@@ -53,7 +53,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 		 - Search for articles with gene APOE and Alzheimer in Pubmed
 		 - Search for articles with Schizophrenia in Google Scholar
 		 - articles with gene TREM2 and Schizophrenia in Arxiv
-		 - Search for articles with APOE gene name and trait Alzheiemr	 	 	 	 
+		 - Search for articles with APOE gene name and trait Alzheimer	 	 	 	 
 - Displays the **name** and **links** of the articles for any given search query.
 - Displays the **abstract** of the article, given its link as search query.
  	- Example:
