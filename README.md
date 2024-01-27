@@ -28,12 +28,11 @@
 
 ---
 
-
 ## Features
 ### PGS Chat
 
 - Retrieve information from and visualize custom database.
-- Demo database: **Polygenic Score (PGS) Rank Database**.
+- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](#Su) for more information.
 - **Code Writer**: Auto-convert queries in natural language (e.g., English (US)) to SQL queries or Python code.
   - Show the top 10 ranked genes for Alzheimer.
   - Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
@@ -104,8 +103,8 @@ This project was made possible by the dedicated efforts of our research team and
   - ...
 
 ### Major Reference Websites
-- **[Website Name 1](Website URL 1)**: Description of the information or data provided by the website.
-- **[Website Name 2](Website URL 2)**: Description of the information or data provided by the website.
+- **[STRING API Documentation](https://string-db.org/help/api/)**: This is the API that is included for generating and visualizing gene-gene interation network in the module 
+- **[ENRICHR API Documentation](https://maayanlab.cloud/Enrichr/help#api)**: Description of the information or data provided by the website.
 - ...
 
 ### GitHub Repositories and Resources
