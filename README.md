@@ -1,4 +1,3 @@
-
 # GENEVIIC
 This is an intelligent chat assistant which is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
 ---
@@ -67,17 +66,75 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ---
 
 ## Local Installation
-### Prerequisites
+### Pre-requisites
+- [Python 3.10+](https://www.python.org/downloads/)
+        - **Important**: Python and the pip package manager must be in the path in Windows for the setup scripts to work.
+        - **Important**: Ensure you can run `python --version` from console.\On Ubuntu, you might need to run `sudo apt install python-is-python3` to link `python` to `python3`.
+- 
+### Step-wise Instructions 
+## Step 1. Clone this repository
 
-Provide step-by-step instructions on how to get a development environment running.
+Open VS Code and Clone this repository:
 
-\```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-pip install -r requirements.txt
-\```
-\```
+URL: https://github.com/Microsoft-USEduAzure/OpenAIWorkshop.git
 
+![](../Images/lab-3-data-2.png)
+
+From the terminal, navigate to ```cd labs/Lab_3_Data_Analytics```
+
+## Step 2. Set up enviromental variables
+
+ Provide settings for Open AI and Database.You can either create a file named `secrets.env` file in the root of this folder (labs/lab_3_data_analytics) as below or do it using the app's UI later on (*easier*).
+
+    - Option 1: use built-in SQLITE (*recommended*). Then you don't need to install SQL Server.
+
+        AZURE_OPENAI_API_KEY="9999999999999999999999999"
+        AZURE_OPENAI_GPT4_DEPLOYMENT="NAME_OF_GPT_4_DEPLOYMENT"
+        AZURE_OPENAI_CHATGPT_DEPLOYMENT="NAME_OF_CHATGPT_4_DEPLOYMENT"
+        AZURE_OPENAI_ENDPOINT=https://openairesourcename.openai.azure.com/
+        SQL_ENGINE = "sqlite"
+
+
+    - Option 2: use your own SQL Server
+
+        AZURE_OPENAI_API_KEY="9999999999999999999999999"
+        AZURE_OPENAI_ENDPOINT="https://openairesourcename.openai.azure.com/"
+        AZURE_OPENAI_GPT4_DEPLOYMENT="NAME_OF_GPT_4_DEPLOYMENT"
+        AZURE_OPENAI_CHATGPT_DEPLOYMENT="NAME_OF_CHATGPT_4_DEPLOYMENT"
+        SQL_USER="sqluserid"
+        SQL_PASSWORD="sqlpassword"
+        SQL_DATABASE="WideWorldImportersDW"
+        SQL_SERVER="sqlservername.database.windows.net"
+
+
+
+> **IMPORTANT** If you are a Mac user, please follow [this](https://learn.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver16) to install ODBC for PYODBC
+
+## Step 3. Configure development environment
+
+> **NOTE** all activities in this step will performed using the command line in VS Code terminal
+
+### Step 3.1 Navigate to the root directory of this lab
+
+Navigate to ```cd labs/Lab_3_Data_Analytics```
+
+### Step 3.2 Create a python environment with version from 3.7 and 3.10
+
+This step is required **ONLY if did not perform this earlier as part of the pre-requisites**
+
+    - [Python 3+](https://www.python.org/downloads/)
+        - **Important**: Python and the pip package manager must be in the path in Windows for the setup scripts to work.
+        - **Important**: Ensure you can run `python --version` from console. On Ubuntu, you might need to run `sudo apt install python-is-python3` to link `python` to `python3`.
+
+### Step 3.3  Import the requirements.txt
+
+run the command: `pip install -r requirements.txt`
+
+### Step 3.4 Run the application locally
+
+To run the application from the command line: `streamlit run app.py`
+
+You will see the application load in your browser.
 ---
 
 ## Web Usage
