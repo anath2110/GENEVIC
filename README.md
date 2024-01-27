@@ -69,14 +69,12 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ### Step-wise Instructions 
 ## Step 1. Clone this repository
 
-Clone this repository:
-
-
-From the terminal, navigate to ```cd labs/Lab_3_Data_Analytics```
+Clone this repository:git clone \
+From the terminal, navigate to ```cd [path-to-project-root-folder]```
 
 ## Step 2. Set up enviromental variables
 
-Provide settings for Open AI and Database. You can either create a file named `secrets.env` file in the root of this folder (labs/lab_3_data_analytics) as below or do it using the app's GUI later on.
+Provide settings for Open AI and Database. You can either create a file named `secrets.env` file in the root of this project folder in your PC as below or do it using the app's GUI later on.
 
     - Option 1: use built-in SQLITE. Then you don't need to install SQL Server.
 
@@ -108,7 +106,7 @@ Provide settings for Open AI and Database. You can either create a file named `s
 
 ### Step 3.1 Navigate to the root directory of this project
 
-Navigate to ```cd labs/Lab_3_Data_Analytics```
+Navigate to ```cd [path-to-project-root-folder]```
 
 ### Step 3.2 Create a python environment 
 
