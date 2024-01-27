@@ -21,8 +21,7 @@ You can permanently fix this issue by adding Python to your PATH environment var
 * Search for `python` and choose `Modify`
 
 * On the second screen, ensure that the "Add Python to environment variables" option is checked, and proceed.
-
-    ![PATH Update](./Images/python-environment-fix.PNG)
+  
 
 ### Verify
 Confirm that everything is working by running `python --version`
@@ -41,8 +40,8 @@ This is similar to the scenario above, in that the `PATH` needs to be adjusted t
     1. Choose `Environment Variables` from the `Advanced` tab
     1. Add a new entry for the path discovered from `pip list -v` to the `Path` variable
 
-    ![PATH Update](./Images/streamlit-path-fix.PNG)
+ 
 
-* Confirm the fix by displaying streamlit help:
+* Confirm the fix by displaying streamlit help
 
-    ![Streamlit Help](./Images/streamlit-verify.PNG)
+    
