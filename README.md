@@ -122,8 +122,9 @@ Langchain Arxiv API wrapper:https://python.langchain.com/docs/integrations/tools
 - **[Repository/Resource Name 2](https://github.com/Jeffz999/Medbot.git)**: Description of how the repository/resource contributed to the project.
 - 
 
----
 Our heartfelt thanks go to each team member, department, and external contributor for their indispensable roles in the fruition of this project.
+
+---
 ## Cite Us
 
 If you use this software in your research or wish to refer to its results, please cite the following paper:
