@@ -1,13 +1,12 @@
 
 # GENEVIIC
-
 This is an intelligent chat assistant which is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
 
 ---
 
 
 ## Table of Contents
-- Introduction
+- Introduction (#introduction)
 - [Features](#features)
 	- [PGS Chat](#pgs-chat)
 	- [GeneAPI Chat](#geneapi-chat)
