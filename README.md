@@ -1,12 +1,10 @@
 
 # GENEVIIC
 
-## Introduction
-
-- **A smart chat assistant.**
+- This intelligent chat assistant is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
 - **Augmented by Generative AI models implemented via Azure OpenAI platform.**
 - The application supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
-- Designed to support novice to intermediate research in Biomedical Informatics.
+- 
 - Run from your local host or Streamlit cloud.
 - Tasks that can be performed with GENEVIIC:
     - **PGS Chat:** Retrieve information from and visualize any custom database.
@@ -33,11 +31,11 @@
 
 - Retrieve information from and visualize custom database.
 - Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](#Su) for more information.
-- **Code Writer**: Auto-convert queries in natural language (e.g., English (US)) to SQL queries or Python code.
+- **Code Writer**: Auto-translate queries in natural language (e.g., English (US)) to SQL queries or Python code.
   - Show the top 10 ranked genes for Alzheimer.
   - Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
 - Download the query results as CSV for retrospective analysis and interpretation.
-- **Query ChatGPT directly to generate more information or novel research hypothesis.**
+- **Query ChatGPT directly** to generate more information or novel research hypothesis.
 ---
 
 ### GeneAPI Chat
