@@ -88,21 +88,17 @@ Explain how to run the Streamlit app.
 
 ## Credits
 
-This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory, McWilliams School of Bioinformatics, UTHealth Houston](https://www.uth.edu/bioinfo/).
+This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory](https://www.uth.edu/bioinfo/) and 
 
 ### Team Members
-- **Member 1 Name** (Department Name): Role/Contribution
-- **Member 2 Name** (Department Name): Role/Contribution
+- **Member 1 Name** : Role/Contribution
+- **Member 2 Name** : Role/Contribution
 - ...
 
 ### Supervision and Guidance
 - **Supervisor Name** (Department Name): Their contribution or how they helped
 
-### Organizational Support
-- **[Organization Name](Organization URL)**: We extend our sincere gratitude to our organization for providing the infrastructure, resources, and environment conducive to innovative research.
-  - **Department 1**: Special thanks to the Department 1 for [specific support or contribution].
-  - **Department 2**: Special thanks to the Department 2 for [specific support or contribution].
-  - ...
+
 
 ### Major Reference Websites
 - **[STRING API Documentation](https://string-db.org/help/api/)**: This is the API that is included for generating and visualizing gene-gene interation network in the module 
