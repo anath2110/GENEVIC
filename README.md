@@ -14,7 +14,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - [Contact](#contact)
 ---
 ## Introduction
-- GENEVIIC is augmented by \textit{Generative AI} models implemented via Azure OpenAI platform.
+- GENEVIIC is augmented by generative AI models implemented via Azure OpenAI platform.
 - It supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
 - Run from your local host or Streamlit cloud.
 - Tasks that can be performed with GENEVIIC:
@@ -55,17 +55,18 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - Search for **literature evidence in PubMed, Google Scholar, or Arxiv**.
 - Search in 1 or 2 or all of these websites at the same time.
 	- Example search queries:
- 		- Search for articles with gene APOE and Alzheimer in Pubmed
+   		- Search for articles with gene APOE and Alzheimer in Pubmed
    		- Search for articles with Schizophrenia in Google Scholar
-     		- articles with gene TREM2 and Schizophrenia in Arxiv
+     		- articles with gene TREM2 and Schizophrenia in Arxiv     		
      		- Search for articles with APOE gene name and trait Alzheiemr	 	 	 	 
 - Displays the **name** and **links** of the articles for any given search query.
 - Displays the **abstract** of the article, given its link as search query.
  	- Example:
     		- [Link to the article](https://link-to-your-article)
 ---
-## Prerequisites
+
 ## Local Installation
+### Prerequisites
 
 Provide step-by-step instructions on how to get a development environment running.
 
