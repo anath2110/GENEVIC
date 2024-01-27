@@ -89,12 +89,13 @@ Access the web application at: [https://geneviic-anathjan24.streamlit.app/](http
 This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory](https://www.uth.edu/bioinfo/) and [Department of Health Data Science and Artificial Intelligence](https://sbmi.uth.edu/prospective-students/dsai.htm) at [McWilliams School of Biomedicalinformatics at UTHealth Houston](https://sbmi.uth.edu/).
 
 ### Team Members
-- **Member 1 Name** : Role/Contribution
-- **Member 2 Name** : Role/Contribution
-- ...
+- **Ushijima Mwesigwa, Goh Savannah** : PGS Rank database development and evaluation of the application 
+- **[Yulin Dai, PhD](https://sbmi.uth.edu/faculty-and-staff/yulin-dai.htm)** : Guided the database development and evaluation of the application 
+
 
 ### Supervision and Guidance
-- **Supervisor Name** (Department Name): Their contribution or how they helped
+- [**Xiaoqian Jiang, PhD**](https://sbmi.uth.edu/faculty-and-staff/xiaoqian-jiang.htm): Co-supervisor
+- [**Zhongping Zhao, PhD, MS**](https://sbmi.uth.edu/faculty-and-staff/zhongming-zhao.htm): Principal Investgator 
 
 
 ### Major Reference Websites
