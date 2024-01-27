@@ -102,19 +102,19 @@ This project was made possible by the dedicated efforts of our research team and
   Documentation for the web API of the STRING API website. This is the backbone web API used as one of the demos in the Gene API chat module. This web API is primarily used to generate and visualize the gene-gene interaction network graph.
 - **[ENRICHR API Documentation](https://maayanlab.cloud/Enrichr/help#api)**: \
      Documentation for the web API for ENRICHR website. This is the backbone web API used as one of the demos in the Gene API chat module. This web API is primarily used to perform gene enrichment ananlysis for a set of genes using the reference gene set libraries.
-- **[Langchain's PubMed API wrapper documentation](https://api.python.langchain.com/en/latest/_modules/langchain_community/utilities/pubmed.html#)**:
-- **[Langchain's PubMed API wrapper source code](https://api.python.langchain.com/en/latest/utilities/langchain_community.utilities.pubmed.PubMedAPIWrapper.html#langchain_community.utilities.pubmed.PubMedAPIWrapper)**:\
-- **[Q&A with RAG](https://python.langchain.com/docs/use_cases/question_answering/)**: \
-- **[Google Scholar (SERP) API documentation](https://serpapi.com/google-scholar-api)**: \
-- **[Langchain SERP API wrapper](https://python.langchain.com/docs/integrations/providers/serpapi)**: \
-- **[Langchain Arxiv API wrapper](https://python.langchain.com/docs/integrations/tools/arxiv)**: \
+- **[Langchain's PubMed API wrapper source code](https://api.python.langchain.com/en/latest/_modules/langchain_community/utilities/pubmed.html#)**:
+   Source code for langchain_community.utilities.pubmed.
+- **[Langchain's PubMed API wrapper documentation](https://api.python.langchain.com/en/latest/utilities/langchain_community.utilities.pubmed.PubMedAPIWrapper.html#langchain_community.utilities.pubmed.PubMedAPIWrapper)**:
+  Documentation for langchain_community.utilities.pubmed. 
+- **[Q&A with RAG](https://python.langchain.com/docs/use_cases/question_answering/)**: Question and Answering use case of Langchain.  
+- **[Google Scholar (SERP) API documentation](https://serpapi.com/google-scholar-api)**: Google Scholar API which allows to scrape SERP results from a Google Scholar search query.  
+- **[Langchain SERP API wrapper](https://python.langchain.com/docs/integrations/providers/serpapi)**: This page covers how to use the SerpAPI search APIs within LangChain.
+- **[Langchain Arxiv API wrapper](https://python.langchain.com/docs/integrations/tools/arxiv)**: Entire documentation for Arxiv API wrapper and Arxiv tool of Langchain.
 
 ### GitHub Repositories and Resources
-- **[Microsoft Open AI workshop](https://github.com/Microsoft-USEduAzure/OpenAIWorkshop.git)**: \
-     Description of how the repository/resource contributed to the project.
-- **[Literature search project code](https://github.com/Jeffz999/Medbot.git)**: \
-   Description of how the repository/resource contributed to the project.
-
+- **[Microsoft Azure Open AI workshop](https://github.com/Microsoft-USEduAzure/OpenAIWorkshop.git)**   
+- **[Literature search project code](https://github.com/Jeffz999/Medbot.git)**
+ 
 Our heartfelt thanks go to each team member, department, and external contributor for their indispensable roles in the fruition of this project.
 
 ---
