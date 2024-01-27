@@ -27,7 +27,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ### PGS Chat
 
 - Retrieve information from and visualize custom database.
-- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](#Supplementary-materials-for-this-project) for more information.
+- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](#Supplementary-Materials) for more information.
 - **Code Writer**: Auto-translate queries in natural language (e.g., English (US)) to SQL queries or Python code.
   - Show the top 10 ranked genes for Alzheimer.
   - Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
@@ -151,6 +151,6 @@ Your Name – nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
 
 Project Link: [https://github.com/anath2110/GENEVIIC.git](https://github.com/anath2110/GENEVIIC.git)
 
-Supplementary materials for this project : [https://github.com/anath2110/GENEVIIC_Supplimentary.git](https://github.com/anath2110/GENEVIIC_Supplimentary.git)
+Supplementary Materials: [https://github.com/anath2110/GENEVIIC_Supplimentary.git](https://github.com/anath2110/GENEVIIC_Supplimentary.git)
 
 ---
