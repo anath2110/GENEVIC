@@ -14,8 +14,8 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - [Contact](#contact)
 ---
 ## Introduction
-- This application is augmented by \textit{Generative AI} models implemented via Azure OpenAI platform.**
-- The application supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
+- GENEVIIC is augmented by \textit{Generative AI} models implemented via Azure OpenAI platform.
+- It supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
 - Run from your local host or Streamlit cloud.
 - Tasks that can be performed with GENEVIIC:
     - **PGS Chat:** Retrieve information from and visualize any custom database.
@@ -27,9 +27,13 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - Retrieve information from and visualize custom database.
 - Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](https://github.com/anath2110/GENEVIIC_Supplimentary.git) for more information.
 - **Code Writer**: Auto-translate prompts/questions in natural language (e.g., English (US)) to SQL queries or Python code.
-  - Example prompts:
-  	- Show the top 10 ranked genes for Alzheimer.
-  	- Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
+    - Use a question from the FAQ or enter your own question.
+    - You can select ```show code``` and/or ```show prompt``` to show SQL & Python code and the prompt behind the scene.
+    - Click on submit to execute and see result.
+    - For advanced questions such as forecasting, you can use GPT-4 (if available) as the engine. 
+    - Example prompts/questions:
+      - Show the top 10 ranked genes for Alzheimer.
+      - Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
 - Download the query results as CSV for retrospective analysis and interpretation.
 - **Query ChatGPT directly** to generate more information or novel research hypothesis.
 ---
@@ -53,12 +57,12 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 	- Example search queries:
  		- Search for articles with gene APOE and Alzheimer in Pubmed
    		- Search for articles with Schizophrenia in Google Scholar
-     		- articles with gene TREM2 and Schizophrenia in Arxiv
-       		- Search for articles with APOE gene name and trait Alzheiemr	 	 	 	 
+       		- articles with gene TREM2 and Schizophrenia in Arxiv
+         	- Search for articles with APOE gene name and trait Alzheiemr	 	 	 	 
 - Displays the **name** and **links** of the articles for any given search query.
 - Displays the **abstract** of the article, given its link as search query.
  	- Example:
-    		- [Link to the paper](https://linkto-you-paper)
+    		- [Link to the article](https://link-to-your-article)
 ---
 ## Prerequisites
 ## Local Installation
