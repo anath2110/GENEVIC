@@ -4,7 +4,7 @@
 ## Introduction
 
 - **A smart chat assistant.**
-- **Augmented by ChatGPT/GPT-4 implemented via Azure OpenAI platform.**
+- **Augmented by Generative Ai models implemented via Azure OpenAI platform.**
 - Run from your local browser or Streamlit cloud.
 - Designed to support novice to intermediate research in Biomedical Informatics.
 - Tasks that can be performed with GENEVIIC:
@@ -83,6 +83,36 @@ Include information about how to navigate the app and any important usage notes.
 
 ---
 
+
+## Credits
+
+This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory, McWilliams School of Bioinformatics, UTHealth Houston](https://www.uth.edu/bioinfo/).
+
+### Team Members
+- **Member 1 Name** (Department Name): Role/Contribution
+- **Member 2 Name** (Department Name): Role/Contribution
+- ...
+
+### Supervision and Guidance
+- **Supervisor Name** (Department Name): Their contribution or how they helped
+
+### Organizational Support
+- **[Organization Name](Organization URL)**: We extend our sincere gratitude to our organization for providing the infrastructure, resources, and environment conducive to innovative research.
+  - **Department 1**: Special thanks to the Department 1 for [specific support or contribution].
+  - **Department 2**: Special thanks to the Department 2 for [specific support or contribution].
+  - ...
+
+### Major Reference Websites
+- **[Website Name 1](Website URL 1)**: Description of the information or data provided by the website.
+- **[Website Name 2](Website URL 2)**: Description of the information or data provided by the website.
+- ...
+
+### GitHub Repositories and Resources
+- **[Repository/Resource Name 1](GitHub URL 1)**: Description of how the repository/resource contributed to the project.
+- **[Repository/Resource Name 2](GitHub URL 2)**: Description of how the repository/resource contributed to the project.
+
+---
+Our heartfelt thanks go to each team member, department, and external contributor for their indispensable roles in the fruition of this project.
 ## Cite Us
 
 If you use this software in your research or wish to refer to its results, please cite the following paper:
@@ -107,10 +137,7 @@ If you are using LaTeX, you can use the following BibTeX entry:
 	}\
 \```
 
-
-
 ---
-
 ## Contact
 
 Your Name – nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
