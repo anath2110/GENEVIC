@@ -5,8 +5,9 @@
 
 - **A smart chat assistant.**
 - **Augmented by Generative AI models implemented via Azure OpenAI platform.**
-- Run from your local browser or Streamlit cloud.
+- The application supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
 - Designed to support novice to intermediate research in Biomedical Informatics.
+- Run from your local host or Streamlit cloud.
 - Tasks that can be performed with GENEVIIC:
     - **PGS Chat:** Retrieve information from and visualize any custom database.
     - **GeneAPI Chat:** Explore Bioinformatics websites via automated API calls.
