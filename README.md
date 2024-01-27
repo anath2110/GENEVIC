@@ -4,7 +4,6 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 
 ---
 
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -14,10 +13,9 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
-
 ---
 ## Introduction
-- **Augmented by Generative AI models implemented via Azure OpenAI platform.**
+- This application is augmented by \textit{Generative AI} models implemented via Azure OpenAI platform.**
 - The application supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
 - Run from your local host or Streamlit cloud.
 - Tasks that can be performed with GENEVIIC:
@@ -29,7 +27,7 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 ### PGS Chat
 
 - Retrieve information from and visualize custom database.
-- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](#Su) for more information.
+- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](#Supplementary-materials-for-this-project) for more information.
 - **Code Writer**: Auto-translate queries in natural language (e.g., English (US)) to SQL queries or Python code.
   - Show the top 10 ranked genes for Alzheimer.
   - Plot distribution of ranks for the top 100 SNPs for Schizophrenia.
