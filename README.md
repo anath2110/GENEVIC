@@ -56,10 +56,10 @@ This is an intelligent chat assistant which is crafted to facilitate research in
 - Search for **literature evidence in PubMed, Google Scholar, or Arxiv**.
 - Search in 1 or 2 or all of these websites at the same time.
 	- Example search queries:
-   		- Search for articles with gene APOE and Alzheimer in Pubmed
-       		- Search for articles with Schizophrenia in Google Scholar
-       		- articles with gene TREM2 and Schizophrenia in Arxiv     		
-     		- Search for articles with APOE gene name and trait Alzheiemr	 	 	 	 
+		 - Search for articles with gene APOE and Alzheimer in Pubmed
+		 - Search for articles with Schizophrenia in Google Scholar
+		 - articles with gene TREM2 and Schizophrenia in Arxiv
+		 - Search for articles with APOE gene name and trait Alzheiemr	 	 	 	 
 - Displays the **name** and **links** of the articles for any given search query.
 - Displays the **abstract** of the article, given its link as search query.
  	- Example:
@@ -82,14 +82,11 @@ pip install -r requirements.txt
 
 ## Web Usage
 
-Explain how to run the Streamlit app.
-
-
-
+Access the web application at: [https://geneviic-anathjan24.streamlit.app/](https://geneviic-anathjan24.streamlit.app/)
 
 ## Credits
 
-This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory](https://www.uth.edu/bioinfo/) and 
+This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory](https://www.uth.edu/bioinfo/) and [Department of Health Data Science and Artificial Intelligence](https://sbmi.uth.edu/prospective-students/dsai.htm) at [McWilliams School of Biomedicalinformatics at UTHealth Houston](https://sbmi.uth.edu/).
 
 ### Team Members
 - **Member 1 Name** : Role/Contribution
@@ -100,27 +97,23 @@ This project was made possible by the dedicated efforts of our research team and
 - **Supervisor Name** (Department Name): Their contribution or how they helped
 
 
-
 ### Major Reference Websites
-- **[STRING API Documentation](https://string-db.org/help/api/)**: This is the API that is included for generating and visualizing gene-gene interation network in the module 
-- **[ENRICHR API Documentation](https://maayanlab.cloud/Enrichr/help#api)**: Description of the information or data provided by the website.
-- Langchain's PubMed API wrapper:
-https://api.python.langchain.com/en/latest/_modules/langchain_community/utilities/pubmed.html#
-#..........................................................................................
-References:
-Langchain's PubMed API wrapper documentation:
-https://api.python.langchain.com/en/latest/utilities/langchain_community.utilities.pubmed.PubMedAPIWrapper.html#langchain_community.utilities.pubmed.PubMedAPIWrapper
-Q&A with RAG:https://python.langchain.com/docs/use_cases/question_answering/
-Google Scholar (SERP) API documentation:https://serpapi.com/google-scholar-api
-Langchain SERP API wrapper:https://python.langchain.com/docs/integrations/providers/serpapi
-Langchain Arxiv API wrapper:https://python.langchain.com/docs/integrations/tools/arxiv
-#........................................................................................
-- ...
+- **[STRING API Documentation](https://string-db.org/help/api/)**: \
+  This is the API that is included for generating and visualizing gene-gene interation network in the module 
+- **[ENRICHR API Documentation](https://maayanlab.cloud/Enrichr/help#api)**: \
+     Documentation for the web API for ENRICHR website. This is the backbone web API used as one of the demos in the Gene API chat module.
+- **[Langchain's PubMed API wrapper](https://api.python.langchain.com/en/latest/_modules/langchain_community/utilities/pubmed.html#)**:
+- **[Langchain's PubMed API wrapper source code](https://api.python.langchain.com/en/latest/utilities/langchain_community.utilities.pubmed.PubMedAPIWrapper.html#langchain_community.utilities.pubmed.PubMedAPIWrapper)**:\
+- **[Q&A with RAG](https://python.langchain.com/docs/use_cases/question_answering/)**:\
+- **[Google Scholar (SERP) API documentation](https://serpapi.com/google-scholar-api)**:\
+- **[Langchain SERP API wrapper](https://python.langchain.com/docs/integrations/providers/serpapi)**:\
+- **[Langchain Arxiv API wrapper](https://python.langchain.com/docs/integrations/tools/arxiv)**:\
 
 ### GitHub Repositories and Resources
-- **[Repository/Resource Name 1](https://github.com/Microsoft-USEduAzure/OpenAIWorkshop.git)**: Description of how the repository/resource contributed to the project.
-- **[Repository/Resource Name 2](https://github.com/Jeffz999/Medbot.git)**: Description of how the repository/resource contributed to the project.
-- 
+- **[Microsoft Open AI workshop](https://github.com/Microsoft-USEduAzure/OpenAIWorkshop.git)**:\
+     Description of how the repository/resource contributed to the project.
+- **[Literature search project code](https://github.com/Jeffz999/Medbot.git)**:\
+   Description of how the repository/resource contributed to the project.
 
 Our heartfelt thanks go to each team member, department, and external contributor for their indispensable roles in the fruition of this project.
 
