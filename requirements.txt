@@ -45,12 +45,6 @@ streamlit-player==0.1.5
 streamlit-toggle-switch==1.0.2
 streamlit-vertical-slider==1.0.2
 SQLAlchemy==1.4.47
-tensorboard==2.15.1
-tensorboard-data-server==0.7.2
-tensorflow==2.15.0
-tensorflow-estimator==2.15.0
-tensorflow-io-gcs-filesystem==0.31.0
-transformers==4.36.0
 urllib3==2.1.0
 
 
