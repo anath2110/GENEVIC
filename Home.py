@@ -107,16 +107,16 @@ def load_image(image_path):
         return base64.b64encode(img_file.read()).decode()  # Encode the binary data to base64 and return it as a string
 
 # Function to read local video and convert to base64
-def load_video(video_path):
-    with open(video_path, "rb") as video_file:  # Open the video file in binary read mode
-        video_base64 = base64.b64encode(video_file.read()).decode()  # Encode the binary data to base64 and return it as a string
-    return video_base64  # Return the base64-encoded video data
+# def load_video(video_path):
+    # with open(video_path, "rb") as video_file:  # Open the video file in binary read mode
+        # video_base64 = base64.b64encode(video_file.read()).decode()  # Encode the binary data to base64 and return it as a string
+    # return video_base64  # Return the base64-encoded video data
 
 #not in use
-def load_classifier():
-    # Load the zero-shot classification model
-    classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")  # Initialize the zero-shot classifier pipeline with the specified model
-    return classifier  # Return the initialized classifier
+# def load_classifier():
+    # # Load the zero-shot classification model
+    # classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")  # Initialize the zero-shot classifier pipeline with the specified model
+    # return classifier  # Return the initialized classifier
 
 def category():
     # Define the categories and their corresponding Streamlit page URLs
@@ -128,20 +128,20 @@ def category():
     return category_urls  # Return the dictionary of category URLs
  
 #not in use 
-def classify_query(user_query, classifier, categories):
-    # Predict the category of the user's query
-    result = classifier(user_query, categories, multi_label=False)
+# def classify_query(user_query, classifier, categories):
+    # # Predict the category of the user's query
+    # result = classifier(user_query, categories, multi_label=False)
 
-    # Find the label with the highest score
-    highest_score_index = result["scores"].index(max(result["scores"]))
-    predicted_category = result["labels"][highest_score_index]
-    confidence = result["scores"][highest_score_index]
+    # # Find the label with the highest score
+    # highest_score_index = result["scores"].index(max(result["scores"]))
+    # predicted_category = result["labels"][highest_score_index]
+    # confidence = result["scores"][highest_score_index]
 
-    # You can set a threshold for confidence here (e.g., 0.5)
-    confidence_threshold = 0.5
-    if confidence < confidence_threshold:
-        return None, None  # or handle low confidence scenarios differently
-    return predicted_category, confidence
+    # # You can set a threshold for confidence here (e.g., 0.5)
+    # confidence_threshold = 0.5
+    # if confidence < confidence_threshold:
+        # return None, None  # or handle low confidence scenarios differently
+    # return predicted_category, confidence
 def classify_query_correctTaskpasge(user_input, max_response_tokens, temperature, model_engine):
     # Define the conversation context and examples for the OpenAI model
     messages = [
@@ -263,7 +263,7 @@ def run():
     pgslogo_base64 = load_image("images/pgslogo.png")  # Load and encode the PGS logo image
     appvideobkglogo_base64 = load_image("images/appvideobkglogo.png")  # Load and encode the app video background logo image
     applogo_base64 = load_image("images/applogo.png")  # Load and encode the app logo image
-    videotutorial_base64 = load_video("videos/video_tutorial.mp4")  # Load and encode the video tutorial
+    #videotutorial_base64 = load_video("videos/video_tutorial.mp4")  # Load and encode the video tutorial
 
     #HTML/CSS code for various style environments used as and when required to design the Home page
     st.markdown(
