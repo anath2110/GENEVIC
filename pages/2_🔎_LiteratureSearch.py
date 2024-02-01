@@ -141,13 +141,16 @@ st.markdown(f"""<h1 style="margin-top: -20px; font-size: 22px;">Mention the port
 col1, col2 = st.columns((3,1)) 
 
 with st.sidebar:
-    
+    # Add margin at the bottom
+    st.markdown("<div style='margin-bottom: 10px;'></div>", unsafe_allow_html=True)  
+    # Settings heading
+    st.markdown(f"""Click Settings 👇 for Open AI credentials""", unsafe_allow_html=True)   
     #Settings for Azure Open AI
     st.button("Settings",on_click=toggleSettings)
     if st.session_state['show_settings']:  
         
         with st.form("AzureOpenAI"):
-            st.title("Azure OpenAI")
+            st.title("Azure OpenAI Credentials")
             st.text_input("ChatGPT deployment name:", value=st.session_state.chatgpt,key="txtChatGPT") 
             st.text_input("GPT-4 deployment name:", value=st.session_state.chatgptmodel,key="txtChatGPTmodel")
              
@@ -168,7 +171,7 @@ with st.sidebar:
 # Check if the necessary API settings are provided
 if st.session_state.apikey == '' or st.session_state.endpoint == '' or st.session_state.chatgpt == '' or st.session_state.serpapikey == '':
     # Display an error message if any of the API settings are missing or incorrect
-    st.error("Some or all of the API settings are missing or incorrect. Click on Settings on the right to update!")
+    st.error("Either OpenAI or SERP API credentials are missing/incorrect, click Settings on the left sidebar!")
 
 else:
     # Initialize the AzureChatOpenAI model

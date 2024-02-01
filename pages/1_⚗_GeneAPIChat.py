@@ -142,7 +142,7 @@ def classify_choosecorrectAPI(user_input, max_response_tokens, temperature, mode
         # Extract the classification from the model's response
         classification = response['choices'][0]['message']['content'].strip()
         # Uncomment the line below to display the classification in the Streamlit app
-        # st.write(classification)
+        st.write(classification)
         
         return classification  # Return the classification result
     except Exception as e:
@@ -350,13 +350,16 @@ with col1:
 #GPT-4 deployment name, Azure OpenAI Endpoint, and Azure OpenAI Key. The settings are submitted using a form.
 # Sidebar layout and options
 with st.sidebar:
-    # Button to toggle the visibility of settings
-    st.button("Settings", on_click=toggleSettings)
-    
+    # Add margin at the bottom
+    st.markdown("<div style='margin-bottom: 10px;'></div>", unsafe_allow_html=True)  
+    # Settings heading
+    st.markdown(f"""Click Settings 👇 for Open AI credentials""", unsafe_allow_html=True)   
+    #Settings for Azure Open AI
+    st.button("Settings",on_click=toggleSettings)    
     # If the settings are to be shown, display the settings form
     if st.session_state['show_settings']:
         with st.form("AzureOpenAI"):
-            st.title("Azure OpenAI Settings")
+            st.title("Azure OpenAI Credentials")
             # Text input fields for Azure OpenAI settings
             st.text_input("ChatGPT deployment name:", value=st.session_state.chatgpt, key="txtChatGPT")
             st.text_input("GPT-4 deployment name (if not specified, default to ChatGPT's):", value=st.session_state.gpt4, key="txtGPT4")
@@ -381,7 +384,7 @@ if 'show_uploader' not in st.session_state:
 # Check if the required Azure OpenAI Deployment settings are provided
 if st.session_state.get('apikey', '') == '' or st.session_state.get('endpoint', '') == '' or st.session_state.get('chatgpt', '') == '':
     # If any of the settings are missing, display an error message
-    st.error("You need to specify Azure OpenAI Deployment Settings!")
+    st.error("You need to specify OpenAI credentials, click Settings on the left sidebar! ")
 else:
     # If settings are provided, proceed with the application functionality
 

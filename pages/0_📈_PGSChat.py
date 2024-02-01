@@ -347,7 +347,11 @@ with st.sidebar:
             "GPT-4": [  
                "Functional annotation of the genes: [Paste the gene names separated by comma as a list here]"
             ]  
-        }  
+        } 
+    # Add margin at the bottom
+    st.markdown("<div style='margin-bottom: 10px;'></div>", unsafe_allow_html=True)  
+    # Settings heading
+    st.markdown(f"""Click Settings 👇 for Open AI and DataBase Credentials""", unsafe_allow_html=True)    
     # Implement settings button with a toggle functionality
     st.button("Settings",on_click=toggleSettings)
     # If the settings are to be shown, display the settings panel
@@ -355,16 +359,17 @@ with st.sidebar:
          # Form for Azure OpenAI settings
         with st.form("AzureOpenAI"):
             
-            st.title("Azure OpenAI Settings")
+            st.title("Azure OpenAI Credentials")
             # Text input fields for OpenAI settings
             st.text_input("ChatGPT deployment name:", value=st.session_state.chatgpt,key="txtChatGPT")  
             st.text_input("GPT-4 deployment name (if not specified, default to ChatGPT's):", value=st.session_state.gpt4,key="txtGPT4") 
             st.text_input("Azure OpenAI Endpoint:", value=st.session_state.endpoint,key="txtEndpoint")  
             st.text_input("Azure OpenAI Key:", value=st.session_state.apikey, type="password",key="txtAPIKey")
             
+            st.write("Select Database")
              # Radio button and text input fields for SQL settings
-            st.radio("SQL Engine:",["sqlite","sqlserver"],index=0,key="txtSQLEngine")
-            st.text_input("SQLite DB Path:", value=st.session_state.sqlitedbpath, key="txtSQLiteDBPath")  # Textbox for SQLite DB Path
+            st.radio("Choose SQL Engine:",["sqlite","sqlserver"],index=0,key="txtSQLEngine")
+            st.text_input("SQLite Database Path:", value=st.session_state.sqlitedbpath, key="txtSQLiteDBPath")  # Textbox for SQLite DB Path
     
             st.write("SQL Server Settings (Optional)")
             st.text_input("SQL Server:", value=st.session_state.sqlserver,key="txtSQLServer")  
@@ -410,9 +415,9 @@ with st.sidebar:
         if index!=2:
             # Validate settings and perform operations based on the selected index
             if st.session_state.apikey == '' or st.session_state.endpoint == '' or st.session_state.chatgpt == '' or st.session_state.sqlengine == '':
-                error_message=("You need to specify Azure Open AI Deployment Settings!")
+                error_message=("You need to specify OpenAI credentials, click Settings on the left sidebar!")
             elif st.session_state.sqlengine =="sqlserver" and (st.session_state.sqlserver == '' or st.session_state.sqldatabase == '' or st.session_state.sqluser == '' or st.session_state.sqlpassword == ''):
-                error_message=("You need to specify SQL Server Settings!")
+                error_message=("You need to specify SQL Server connection details, click Settings on the left sidebar!")
             else:
                 if st.session_state.sqlengine =="sqlserver":
                     sql_query_tool = SQL_Query(driver='ODBC Driver 17 for SQL Server',dbserver=st.session_state.sqlserver, database=st.session_state.sqldatabase, db_user=st.session_state.sqluser ,db_password=st.session_state.sqlpassword)
@@ -421,7 +426,7 @@ with st.sidebar:
                         # Proceed with database operations
                         sql_query_tool = SQL_Query(db_path=st.session_state.sqlitedbpath)
                     else:
-                        error_message=("DB Path is empty.")
+                        error_message=("SQLITE database Path is empty, click Settings on the left sidebar!!")
                 # Code for validation and operation based on the selected index
                 analyzer = AnalyzeGPT(sql_engine=st.session_state.sqlengine,content_extractor= extractor, sql_query_tool=sql_query_tool,  system_message=system_message, few_shot_examples=few_shot_examples,st=st,  
                                     gpt_deployment=gpt_engine,max_response_tokens=max_response_tokens,token_limit=token_limit,  
@@ -440,7 +445,7 @@ with st.sidebar:
 
             # Make sure all the required settings are provided
             if st.session_state.apikey == '' or st.session_state.endpoint == '':
-                error_message=("You need to specify Azure OpenAI Deployment Settings!")
+                error_message=("You need to specify OpenAI credentials, see left sidebar!")
                 
             else:
                 error_message=None
