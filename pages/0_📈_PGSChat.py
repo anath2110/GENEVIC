@@ -150,6 +150,53 @@ st.markdown(
     """,
     unsafe_allow_html=True,
     )
+# Define CSS for styling the error message
+st.markdown(
+    """
+    <style>
+        /* CSS for blinking animation */
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            30% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        /*Define animated heading style*/
+            .animated-heading {
+                animation: growShrink 3s ease-in-out infinite;
+                font-size: 1.5em; 
+            }
+            /*Define keyframes for grow and shrink animation*/
+            @keyframes growShrink {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.2); }
+                100% { transform: scale(1); }
+            }
+        .custom-error {
+            /* Custom styles for the error box */
+            background-color: #ffcccc;
+            padding: 10px;
+            border: 2px solid #ff0000;
+            animation: blink 2s infinite; /* Apply blinking animation */
+            font-size: 40px; /* Increase font size */
+        }
+        
+        .custom-steps {
+            background-color: yellow;
+            padding: 10px;
+            margin-top: 24px; /* Add a gap between the two divs */
+            font-size: 18px;
+        }
+
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # Create columns for the Streamlit app layout
 col1, col2 = st.columns((3,1)) # Divide the page into two columns with ratios 3:1
@@ -415,7 +462,36 @@ with st.sidebar:
         if index!=2:
             # Validate settings and perform operations based on the selected index
             if st.session_state.apikey == '' or st.session_state.endpoint == '' or st.session_state.chatgpt == '' or st.session_state.sqlengine == '':
-                error_message=("You need to specify OpenAI credentials, click Settings on the left sidebar!")
+                error_message=f"""
+                <div class="custom-error">
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <strong>Alert! Alert!</strong>
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <ul style="list-style-type: none;">
+                                <li>You need to specify Open AI (here, Azure's) credentials and SQL (SQLITE path or SQL Server connection) database settings to proceed.</li>                               
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="animated-heading">
+                        <span style="font-size: 24px;">👈</span> Click on Settings on the left sidebar!
+                </div>
+                <!-- Additional div for steps -->
+                <div class="custom-steps">
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <strong>Steps to navigate this section:</strong>
+                            <ul>
+                                <li><a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
+                                <li>Use a question from the Prompts or enter your own question</li>
+                                <li>You can select show code and/or show prompt to show SQL & Python code and the prompt behind the scene</li>
+                                <li>Click on submit to execute and see the result</li>
+                                <li>For advanced questions such as forecasting, you can use GPT-4 (if available) as the engine</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>"""
             elif st.session_state.sqlengine =="sqlserver" and (st.session_state.sqlserver == '' or st.session_state.sqldatabase == '' or st.session_state.sqluser == '' or st.session_state.sqlpassword == ''):
                 error_message=("You need to specify SQL Server connection details, click Settings on the left sidebar!")
             else:
@@ -515,7 +591,9 @@ with st.sidebar:
 
 
 
-if(error_message):
-    st.error(error_message)
+if(error_message):   
+    
+    # Display the error message
+    st.markdown(error_message, unsafe_allow_html=True)
 else:
     st.write("")

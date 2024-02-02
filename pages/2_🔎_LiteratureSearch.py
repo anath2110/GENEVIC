@@ -131,7 +131,52 @@ st.markdown(
     """,
     unsafe_allow_html=True,
     )
+st.markdown(
+    """
+    <style>
+        /* CSS for blinking animation */
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            30% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        /*Define animated heading style*/
+            .animated-heading {
+                animation: growShrink 3s ease-in-out infinite;
+                font-size: 1.5em; 
+            }
+            /*Define keyframes for grow and shrink animation*/
+            @keyframes growShrink {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.2); }
+                100% { transform: scale(1); }
+            }
+        .custom-error {
+            /* Custom styles for the error box */
+            background-color: #ffcccc;
+            padding: 10px;
+            border: 2px solid #ff0000;
+            animation: blink 2s infinite; /* Apply blinking animation */
+            font-size: 40px; /* Increase font size */
+        }
+        
+        .custom-steps {
+            background-color: yellow;
+            padding: 10px;
+            margin-top: 24px; /* Add a gap between the two divs */
+            font-size: 18px;
+        }
 
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 # Main app logic starts here
 #Heading
 st.markdown(f"""<h1 style="font-size: 32px;">Find literature evidence in PubMed, Google Scholar or Arxiv</h1>""", unsafe_allow_html=True)
@@ -170,8 +215,39 @@ with st.sidebar:
 #################AGENT SETUP####################
 # Check if the necessary API settings are provided
 if st.session_state.apikey == '' or st.session_state.endpoint == '' or st.session_state.chatgpt == '' or st.session_state.serpapikey == '':
-    # Display an error message if any of the API settings are missing or incorrect
-    st.error("Either OpenAI or SERP API credentials are missing/incorrect, click Settings on the left sidebar!")
+    # Display an error message if any of the API settings are missing or incorrect    
+    error_message=f"""
+                <div class="custom-error">
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <strong>Alert! Alert!</strong>
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <ul style="list-style-type: none;">
+                                <li>You need to specify Open AI (here, Azure's) and SERP API credentials to proceed.</li>                               
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="animated-heading">
+                        <span style="font-size: 24px;">👈</span> Click on Settings on the left sidebar!
+                </div>
+                <!-- Additional div for steps -->
+                <div class="custom-steps">
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <strong>Steps to navigate this section:</strong>
+                            <ul>
+                                <li><a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
+                                <li><a href='https://serpapi.com/' target=_blank>Create a free SERP API account to ket the private key to seach in Google Scholar</a> </li></li>                                
+                                <li>Use prompts like "articles with APOE and ALzheimer in Pubmed"</li> 
+                                <li>Type or copy paste link of an article in the prompt/user input to retrieve its abstract</li>                                  
+                                <li>For advanced questions such as forecasting, you can use GPT-4 (if available) as the engine</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>"""
+     # Display the error message
+    st.markdown(error_message, unsafe_allow_html=True)
 
 else:
     # Initialize the AzureChatOpenAI model
