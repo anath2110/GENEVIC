@@ -466,14 +466,17 @@ def run():
         st.markdown(
             f"""
             <div>
-                <ul style="list-style-type: none;">                 
-                    <li> <a href='https://www.pgscatalog.org/' target=_blank>Tutorial</a> </li>
+                <ul style="list-style-type: none;">
+                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/GraphicalAbstractV2.png' target=_blank>GENEVIIC Overview Diagram</a> </li>                   
+                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/tree/main/Tutorial' target=_blank>Tutorial</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIIC_Supplimentary/blob/main/Tutorial/InstallationGuide.md' target=_blank>Install and Run GENEVIIC</a> </li>
-                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx' target=_blank>Azure OpenAI Links </a> </li>
+                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li>
                     <li> <a href='https://www.pgscatalog.org/' target=_blank>PGS Catalog Website</a> </li>
-                    <li> <a href='http://tinyurl.com/PGSrankDB' target=_blank>PGS Rank Database</a> </li>                     
+                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/tree/main/Database' target=_blank>PGS Rank Database</a> </li>
+                    <!--<li> <a href='http://tinyurl.com/PGSrankDB' target=_blank>PGS Rank Database</a> </li>-->                    
                     <!-- <li> <a href='Link' target=_blank>Publication</a></li> -->
-                    <li> <a href='https://github.com/anath2110/GENEVIIC.git' target=_blank> Code Repository</a> </li>                    
+                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/tree/main/Test%20Runs' target=_blank>Test Cases</a> </li>
+                   <li> <a href='https://github.com/anath2110/GENEVIIC.git' target=_blank> Code Repository</a> </li>                    
                 </ul>
             </div>
             
