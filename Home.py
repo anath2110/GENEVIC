@@ -694,7 +694,7 @@ def run():
         if st.button("Submit"):
             if st.session_state.get('apikey', '') == '' or st.session_state.get('endpoint', '') == '' or st.session_state.get('chatgpt', '') == '':
             # If any of the settings are missing, display an error message
-                st.error("You need to specify OpenAI Credentials, click Settings on the left sidebar! ")
+                st.error("👈 Alert! You need to specify OpenAI Credentials, click Settings on the left sidebar! ")
             else:
                 # Load the classifier and categories
                 #classifier = load_classifier()
