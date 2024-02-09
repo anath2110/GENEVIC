@@ -1,5 +1,5 @@
-# GENEVIIC
-## GENetic data Exploration and Visualization Intelligent Interactive Console
+# GENEVIC
+## GENetic data Exploration and Visualization Intelligent interactive Console
 This is an intelligent chat assistant that is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
 ---
 ## Table of Contents
@@ -13,10 +13,10 @@ This is an intelligent chat assistant that is crafted to facilitate research in 
 - [Contact](#contact)
 ---
 ## Introduction
-- GENEVIIC is augmented by generative AI models implemented via Azure OpenAI platform.
+- GENEVIC is augmented by generative AI models implemented via Azure OpenAI platform.
 - It supports Python's built-in SQLITE as well as your own Microsoft SQL Server.
 - It can be run from your local host or Streamlit cloud.
-- Tasks that can be performed with GENEVIIC:
+- Tasks that can be performed with GENEVIC:
     - **PGS Chat:** Retrieve information from and visualize any custom database.
     - **GeneAPI Chat:** Explore Bioinformatics websites via automated API calls.
     - **Literature Search:** Search for relevant literature evidence in well-known portals for a given search query.
@@ -24,7 +24,7 @@ This is an intelligent chat assistant that is crafted to facilitate research in 
 ## Features
 ### PGS Chat
 - Retrieve information from and visualize custom database.
-- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](https://github.com/anath2110/GENEVIIC_Supplimentary.git) for more information.
+- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](https://github.com/anath2110/GENEVIC_Supplimentary.git) for more information.
 - **Code Writer**: Auto-translate prompts/questions in natural language (e.g., English (US)) to SQL queries or Python code.
     - Steps to use this section:
     	- Use a question from the FAQ or enter your own question.
@@ -70,7 +70,7 @@ This is an intelligent chat assistant that is crafted to facilitate research in 
 ### Step-wise Instructions 
 ## Step 1. Clone this repository
 
-Clone this repository:git clone https://github.com/anath2110/GENEVIIC.git \
+Clone this repository:git clone https://github.com/anath2110/GENEVIC.git \
 From the terminal, navigate to ```cd [path-to-project-root-folder]```
 
 ## Step 2. Set up enviromental variables
@@ -122,8 +122,8 @@ Run the command: `pip install -r requirements.txt`
 To run the application from the command line: `streamlit run app.py` \
 You will see the application load in your browser.
 
-> **Note**: For troubleshoot, see [here](https://github.com/anath2110/GENEVIIC_Supplimentary/blob/main/Tutorial/TSHOOT.md)
-> **Note**: For Azure Open AI subscriotion and set up : see [here](https://github.com/anath2110/GENEVIIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx)
+> **Note**: For troubleshoot, see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/TSHOOT.md)
+> **Note**: For Azure Open AI subscriotion and set up : see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx)
 ---
 
 ## Web Usage
@@ -194,8 +194,8 @@ If you are using LaTeX, you can use the following BibTeX entry:
 
 Your Name – nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
 
-Project Link: [https://github.com/anath2110/GENEVIIC.git](https://github.com/anath2110/GENEVIIC.git)
+Project Link: [https://github.com/anath2110/GENEVIC.git](https://github.com/anath2110/GENEVIC.git)
 
-Supplementary Materials: [https://github.com/anath2110/GENEVIIC_Supplimentary.git](https://github.com/anath2110/GENEVIIC_Supplimentary.git)
+Supplementary Materials: [https://github.com/anath2110/GENEVIC_Supplimentary.git](https://github.com/anath2110/GENEVIC_Supplimentary.git)
 
 ---
