@@ -423,7 +423,7 @@ def run():
                     <!--Create a header with flex alignment-->
                     <div class="header-flex">                 
                        <img src="data:image/png;base64,{applogo_base64}" width="100" height="100" style="opacity:0.7;">  
-                       <h1 style="font-size: 36px;"> GENEVIIC: GENetic data Exploration and Visualization Intelligent Interactive Console</h1>                       
+                       <h1 style="font-size: 36px;"> GENEVIC: GENetic data Exploration and Visualization Intelligent interactive Console</h1>                       
                     </div>
     """, unsafe_allow_html=True)
 
@@ -467,16 +467,16 @@ def run():
             f"""
             <div>
                 <ul style="list-style-type: none;">
-                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/GraphicalAbstractV2.png' target=_blank>GENEVIIC Overview Diagram</a> </li>                   
-                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/tree/main/Tutorial' target=_blank>Tutorial</a> </li>
-                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplimentary/blob/main/Tutorial/InstallationGuide.md' target=_blank>Install and Run GENEVIIC</a> </li>
-                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li>
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/GraphicalAbstractV2.png' target=_blank>GENEVIC Overview Diagram</a> </li>                   
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Tutorial' target=_blank>Tutorial</a> </li>
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/InstallationGuide.md' target=_blank>Install and Run GENEVIC</a> </li>
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li>
                     <li> <a href='https://www.pgscatalog.org/' target=_blank>PGS Catalog Website</a> </li>
-                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/tree/main/Database' target=_blank>PGS Rank Database</a> </li>
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Database' target=_blank>PGS Rank Database</a> </li>
                     <!--<li> <a href='http://tinyurl.com/PGSrankDB' target=_blank>PGS Rank Database</a> </li>-->                    
                     <!-- <li> <a href='Link' target=_blank>Publication</a></li> -->
-                    <li> <a href='https://github.com/anath2110/GENEVIIC_Supplementary/tree/main/Test%20Runs' target=_blank>Test Cases</a> </li>
-                   <li> <a href='https://github.com/anath2110/GENEVIIC.git' target=_blank> Code Repository</a> </li>                    
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Test%20Runs' target=_blank>Test Cases</a> </li>
+                   <li> <a href='https://github.com/anath2110/GENEVIC.git' target=_blank> Code Repository</a> </li>                    
                 </ul>
             </div>
             
@@ -541,15 +541,15 @@ def run():
                 <div class="block block">
                     <div class="header-flex">
                         <img src="data:image/png;base64,{appvideobkglogo_base64}" width="100" height="100" style="opacity:0.3;margin-right:30px;margin-bottom:20px;">                          
-                        <h3 class="hover-grow-shrink">About GENEVIIC</h3>                           
+                        <h3 class="hover-grow-shrink">About GENEVIC</h3>                           
                     </div>                  
                     <ul style="list-style-type: none;">                        
                         <li> <strong>An intelligent chat assistant</strong></li> 
-                        <li> GENEVIIC is augmented by <strong>generative AI</strong> models implemented via Azure OpenAI platform</li>
+                        <li> GENEVIC is augmented by <strong>generative AI</strong> models implemented via Azure OpenAI platform</li>
                         <li> It supports Python's built-in SQLITE as well as your own Microsoft SQL Server </li>
                         <li> It can be run from your local host or Streamlit cloud </li>                         
                         <li> It is designed specifically to support research in <strong>Biomedicalinformatics</strong></li>                        
-                        <li> Tasks that can be performed with GENEVIIC:
+                        <li> Tasks that can be performed with GENEVIC:
                             <ul style="list-style-type: none;">  
                                 <li> <strong> PGS Chat: Retrieve information from and visualize any custom database </strong></li>
                                 <li> <strong> GeneAPI Chat: Explore Bioinformatics websites via automated API calls  </strong></li>
