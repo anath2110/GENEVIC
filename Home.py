@@ -467,7 +467,7 @@ def run():
             f"""
             <div>
                 <ul style="list-style-type: none;">
-                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/GraphicalAbstractV2.png' target=_blank>GENEVIC Overview Diagram</a> </li>                   
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/GraphicalAbstract.png' target=_blank>GENEVIC Architecture</a> </li>                   
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Tutorial' target=_blank>Tutorial</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/InstallationGuide.md' target=_blank>Install and Run GENEVIC</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li>
