@@ -107,10 +107,10 @@ def load_image(image_path):
         return base64.b64encode(img_file.read()).decode()  # Encode the binary data to base64 and return it as a string
 
 # Function to read local video and convert to base64
-# def load_video(video_path):
-    # with open(video_path, "rb") as video_file:  # Open the video file in binary read mode
-        # video_base64 = base64.b64encode(video_file.read()).decode()  # Encode the binary data to base64 and return it as a string
-    # return video_base64  # Return the base64-encoded video data
+def load_video(video_path):
+    with open(video_path, "rb") as video_file:  # Open the video file in binary read mode
+        video_base64 = base64.b64encode(video_file.read()).decode()  # Encode the binary data to base64 and return it as a string
+    return video_base64  # Return the base64-encoded video data
 
 #not in use
 # def load_classifier():
@@ -805,7 +805,7 @@ def run():
                     opacity: 0.9; /* Slightly reduce opacity on hover */
                 }}
             </style>
-            <iframe class="video-iframe" src="https://www.youtube.com/embed/LnryZDi_iMw" allowfullscreen="true" frameborder="0"></iframe>
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/qVtIZFCC67w" allowfullscreen="true" frameborder="0"></iframe>
             """, unsafe_allow_html=True)
      # Column 3: Auto-scroll blocks describing each task page
     with col3:
