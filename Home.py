@@ -423,7 +423,7 @@ def run():
                     <!--Create a header with flex alignment-->
                     <div class="header-flex">                 
                        <img src="data:image/png;base64,{applogo_base64}" width="100" height="100" style="opacity:0.7;">  
-                       <h1 style="font-size: 36px;"> GENEVIC: GENetic data Exploration and Visualization Intelligent interactive Console</h1>                       
+                       <h1 style="font-size: 28px;"> GENEVIC: GENetic data Exploration and Visualization Intelligent interactive Console</h1>                       
                     </div>
     """, unsafe_allow_html=True)
 
