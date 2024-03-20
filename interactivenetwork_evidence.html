@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <!-- Embed the STRING's javascript -->
+
+      <script type="text/javascript" src="https://string-db.org/javascript/combined_embedded_network_v2.0.4.js"></script>
+
+      <style>
+
+	     /* Adjust the outer container to use Flexbox */
+		#content-with-legend {
+		  display: flex;
+		  justify-content: space-between; /* This will ensure that main-content and legend are pushed to opposite sides */
+		  align-items: center; /* This aligns items vertically in the middle */
+		  height: 100vh; /* Adjust the height to take full viewport height or as needed */
+		}
+
+		/* Style for the main content area */
+		#main-content {
+		  flex-grow: 1; /* Allows main content to grow and take available space */
+		  padding: 20px;
+		}
+
+		/* Style for the legend to position it on the right */
+		#legend {
+		  width: 270px; /* Adjust the width as needed */
+		  margin: 0 30px; /* Adjust margin as needed */
+		  padding: 20px;
+		  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		/* Additional styles  */
+		.legend-color {
+		  height: 15px;
+		  width: 15px;
+		  display: inline-block;
+		  margin-right: 10px;
+		  border: 1px solid #000; /* Optional: adds a border around the color squares */
+		}
+
+
+           body {
+               font-family: Arial;
+               color: #122e4d;
+                background: transparent;  <!-- Changed background to transparent -->
+           }
+
+           input {
+               border: 4px solid #122e4d; 
+               width: 40%;
+               height: 50px;
+               border-radius: 10px;  
+               font-size: 20px;
+           }
+
+           button {
+               font-size:20px;
+               border-radius: 10px;  
+               border: 1px solid #122e4d; 
+           }
+
+      </style>
+      <script>
+
+          function send_request_to_string() {
+
+              var inputField = document.getElementById('inputarea');
+
+              var text = inputField.value;
+
+              if (!text) {text = inputField.placeholder}; // placeholder
+
+              var proteins = text.split(' ');
+
+              /* the actual API query */
+
+              getSTRING('https://string-db.org', {
+                          'species':'9606',
+                          'identifiers':proteins,
+                          'network_flavor':'evidence', 
+						  //'required_score' : 0.4,
+						  'add_color_nodes':0,
+						  'add_white_nodes':10,
+                          'caller_identity': 'www.awesome_app.org'
+              })
+
+          }
+
+      </script>
+  </head>
+
+  <!-- HTML CODE -->
+
+  
+  <body onload='javascript:send_request_to_string()'>
+  <div id="content-with-legend">
+    <div id="main-content">
+      <center>
+          <h1>STRING API</h1>
+          <h3>Query me: (one human protein or multiple space separated proteins)</h3>
+             <input type="text" id='inputarea' placeholder='APOE TREM2'><br/><br/>
+             <button onclick='javascript:send_request_to_string();' type="button">Let's go!</button>
+             <h3>Network:</h3>
+             <div id="stringEmbedded"></div>
+      </center>
+    </div>
+    <!-- Legend is outside the main-content but inside the content-with-legend -->
+    <div id="legend">
+      <h3>Interaction Evidence Legend</h3>
+      <ul>
+			<li><span class="legend-color" style="background-color: red;"></span> Fusion evidence</li>
+			<li><span class="legend-color" style="background-color: green;"></span> Neighborhood evidence</li>
+			<li><span class="legend-color" style="background-color: blue;"></span> Cooccurrence evidence</li>
+			<li><span class="legend-color" style="background-color: purple;"></span> Experimental evidence</li>
+			<li><span class="legend-color" style="background-color: yellow;"></span> Textmining evidence</li>
+			<li><span class="legend-color" style="background-color: lightblue;"></span> Database evidence</li>
+			<li><span class="legend-color" style="background-color: black;"></span> Coexpression evidence</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
