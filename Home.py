@@ -436,7 +436,7 @@ def run():
         # Add margin at the bottom
         st.markdown("<div style='margin-bottom: 10px;'></div>", unsafe_allow_html=True)  
         # Settings heading
-        st.markdown(f"""Click Settings 👇 for Open AI credentials""", unsafe_allow_html=True)       
+        st.markdown(f"""Click Settings 👇 for Azure's Open AI credentials""", unsafe_allow_html=True)       
         # Button to toggle the visibility of settings
         st.button("Settings", on_click=toggleSettings)    
         # If the settings are to be shown, display the settings form
@@ -694,7 +694,7 @@ def run():
         if st.button("Submit"):
             if st.session_state.get('apikey', '') == '' or st.session_state.get('endpoint', '') == '' or st.session_state.get('chatgpt', '') == '':
             # If any of the settings are missing, display an error message
-                st.error("👈 Alert! You need to specify OpenAI Credentials, click Settings on the left sidebar! ")
+                st.error("👈 Alert! You need to specify Azure's Open AI Credentials, click Settings on the left sidebar! ")
             else:
                 # Load the classifier and categories
                 #classifier = load_classifier()
@@ -805,7 +805,7 @@ def run():
                     opacity: 0.9; /* Slightly reduce opacity on hover */
                 }}
             </style>
-            <iframe class="video-iframe" src="https://www.youtube.com/embed/qVtIZFCC67w" allowfullscreen="true" frameborder="0"></iframe>
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/3d6GhuoiVHU" allowfullscreen="true" frameborder="0"></iframe>
             """, unsafe_allow_html=True)
      # Column 3: Auto-scroll blocks describing each task page
     with col3:
