@@ -438,7 +438,7 @@ if st.session_state.get('apikey', '') == '' or st.session_state.get('endpoint', 
                             <strong>Alert! Alert!</strong>
                             <i class="fas fa-exclamation-triangle"></i>
                             <ul style="list-style-type: none;">
-                                <li>You need to specify Open AI (here, Azure's) credentials and SQL (SQLITE path or SQL Server connection) database settings to proceed.</li>                               
+                                <li>You need to specify Open AI (here, Azure's) credentials database settings to proceed.</li>                               
                             </ul>
                         </li>
                     </ul>
