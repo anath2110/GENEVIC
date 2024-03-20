@@ -2,7 +2,7 @@
 Author: Anindita Nath
 Job Title: Postdoctoral Research Fellow
 Location: Bioinformatics and Systems Medicine Laboratory, MSBMI, UTHH
-Date: August, 2023 - January 2024
+Date: August, 2023 - March, 2024
 #..............................................................................
 References:
 STRING API Documentation: https://string-db.org/help/api/
@@ -158,11 +158,11 @@ def classify_choosecorrectAPI(user_input, max_response_tokens, temperature, mode
 
 def show_gene_network():
     # Open the HTML file containing the interactive network visualization
-    HtmlFile = open("interactivenetwork.html", 'r', encoding='utf-8')
+    HtmlFile = open("interactivenetwork_evidence.html", 'r', encoding='utf-8')
     # Read the content of the file
     source_code = HtmlFile.read()
     # Display the HTML content within the Streamlit app
-    components.html(source_code, height=1000, width=1000, scrolling=True)
+    components.html(source_code, height=1500, width=1000, scrolling=True)
 
 #Following functions collectively provide tools for network graph construction, 
 #node coloring, and distribution analysis, 
@@ -452,7 +452,7 @@ if st.session_state.get('apikey', '') == '' or st.session_state.get('endpoint', 
                         <li>
                             <strong>Steps to navigate this section:</strong>
                             <ul>
-                                <li><a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
+                                <li><a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
                                 <li>Use prompts with keywords interaction or network to invoke "STRING API"</li>
                                 <li>Use prompts with keywords enrichment or enrich or analysis or pathway to invoke "ENRICHR API"</li>
                                 <li>Click on Submit or Enrichment or Visualize button, as the case may be , to see the result</li>
