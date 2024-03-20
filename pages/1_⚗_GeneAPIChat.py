@@ -162,7 +162,7 @@ def show_gene_network():
     # Read the content of the file
     source_code = HtmlFile.read()
     # Display the HTML content within the Streamlit app
-    components.html(source_code, height=1500, width=1000, scrolling=True)
+    components.html(source_code, height=1000, width=1500, scrolling=True)
 
 #Following functions collectively provide tools for network graph construction, 
 #node coloring, and distribution analysis, 
