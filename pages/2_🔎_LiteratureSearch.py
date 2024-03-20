@@ -334,7 +334,7 @@ with input_container:
 # Initialize 'generated' in the session state if not present
 if 'generated' not in st.session_state:
     st.session_state['generated'] = [""" Welcome to your Literature Review Assistant. 
-    Enter your query above, e.g. 'Search for articles with gene APOE and Alzheimer in Pubmed.'"""]
+    Enter your query above, e.g. 'Search for articles with gene APOE and Alzheimer in PubMed.'"""]
 
 # Initialize 'past' in the session state if not present
 if 'past' not in st.session_state:
