@@ -179,7 +179,7 @@ st.markdown(
 )
 # Main app logic starts here
 #Heading
-st.markdown(f"""<h1 style="font-size: 32px;">Find literature evidence in PubMed, Google Scholar or Arxiv</h1>""", unsafe_allow_html=True)
+st.markdown(f"""<h1 style="font-size: 32px;">Find literature evidence in PubMed, Google Scholar or arXiv</h1>""", unsafe_allow_html=True)
 st.markdown(f"""<h1 style="margin-top: -20px; font-size: 22px;">Mention the portal you want to search in along with your search query</h1>""", unsafe_allow_html=True)
 
 # Create columns for the Streamlit app layout
@@ -223,7 +223,7 @@ if st.session_state.apikey == '' or st.session_state.endpoint == '' or st.sessio
                             <strong>Alert! Alert!</strong>
                             <i class="fas fa-exclamation-triangle"></i>
                             <ul style="list-style-type: none;">
-                                <li>You need to specify Open AI (here, Azure's) and SERP API credentials to proceed.</li>                               
+                                <li>You need to specify  Azure's Open AI and SERP API credentials to proceed.</li>                               
                             </ul>
                         </li>
                     </ul>
@@ -237,7 +237,7 @@ if st.session_state.apikey == '' or st.session_state.endpoint == '' or st.sessio
                         <li>
                             <strong>Steps to navigate this section:</strong>
                             <ul>
-                                <li><a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
+                                <li><a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
                                 <li><a href='https://serpapi.com/' target=_blank>Create a free SERP API account to get the private key to seach in Google Scholar</a> </li></li>                                
                                 <li>Use prompts like "articles with APOE and ALzheimer in PubMed"</li> 
                                 <li>Type or copy paste link of an article in the prompt/user input to retrieve its abstract</li>                                  

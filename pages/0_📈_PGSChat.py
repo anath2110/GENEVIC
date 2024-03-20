@@ -236,36 +236,39 @@ with st.sidebar:
 
         # Define prompts for ChatGPT and GPT-4 (content not shown for brevity)
         prompts_dict = { 
-           "ChatGPT": [  
-                        "Show all information for to 5 ranked variants, ranked high to low, in Alzheimer.",
-                        "Show all information for to 5 ranked variants, ranked high to low, in Alzheimer.If duplicate, show only once.",                        
-                        "Show all information corresponding to the SNP ids that are top-ranked for Alzheimer.",
-                        "Show all information for SNPs with top ranks. If duplicate, show only once.",
+           "ChatGPT": [ 
+                        "Show variants corresponding to 5 top ranked genes, ranked  fromto to bottom, in Alzheimer.",
+                        "Show variants corresponding to 5 top ranked genes, ranked  fromto to bottom, in Alzheimer. If duplicate, show only once.",
                         "Show gene, variants and ranks for SNPs with top ranks. If duplicate, show only once.",
                         "List the variants with top ranks and corresponding all info associated with European Ancestry.",
-                        "Show all information corresponding to 5 top ranked genes, ranked from top to bottom in Alzheimer.",  
-                        "Show all information corresponding to 5 top ranked genes, ranked from top to bottom in Alzheimer. If duplicate, show only once.", 
-                        "Display the genes with 5 high ranks and their corresponding ranks for each PGS score ID.",
-                        "How often does APOE gene occur in Alzheimer?",                        
-                        "What are the top 5 most frequently occurring gene in Alzheimer?",
-                        "How often does gene APOE occur for Alzheimer?",
-                        "Show genes and their frequency for ALzheimer that occur less frequently than APOE?",                        
-                        
-            ],  
-            "GPT-4": [  
-                        "Show all information for to 5 ranked variants, ranked high to low, in Alzheimer.",
-                        "Show all information for to 5 ranked variants, ranked high to low, in Alzheimer.If duplicate, show only once.",                           
-                        "Show all information corresponding to the SNP ids that are top-ranked for Alzheimer.",
-                        "Show all information for SNPs with top ranks. If duplicate, show only once.",
-                        "Show gene, variants and ranks for SNPs with top ranks. If duplicate, show only once.",
-                        "List the variants with top ranks and corresponding all info associated with European Ancestry.",
-                        "Show all information corresponding to 5 top ranked genes, ranked from top to bottom in Alzheimer.",  
-                        "Show all information corresponding to 5 top ranked genes, ranked from top to bottom in Alzheimer. If duplicate, show only once.", 
-                        "Display the genes with 5 high ranks and their corresponding ranks for each PGS score ID.",
-                        "How often does APOE gene occur in Alzheimer?",                        
+                        "Show all information corresponding to top 10 ranked genes, ranked from top to bottom in Alzheimer.",
+                        "Show only the gene and rank, corresponding to top 10 ranked genes, ranked from top to bottom in Alzheimer.",
+                        "Show only the gene and rank, corresponding to top 10 ranked genes, ranked from top to bottom in Alzheimer.If duplicate, show only once.",                        
+                        "How often does APOE gene occur in Alzheimer?",                       
                         "What are the top 5 most frequently occurring gene in Alzheimer?",
                         "How often does gene APOE occur for Alzheimer?",
                         "Show genes and their frequency for ALzheimer that occur less frequently than APOE?", 
+                        "Plot variants corresponding to their ranks for 5 top ranked genes, ranked  from to to bottom, in Alzheimer. If duplicate, show only once.",
+                        "Plot the PGS score IDs and other info for the top 5 ranked genes with top ranks displayed first in Alzheimer.",
+                        "Plot a bar plot  top 5 most frequently occurring gene in Alzheimer.",
+                        "Plot the PGS score IDs and their count in European Ancestory for Alzheimer." ,
+            ],  
+            "GPT-4": [  
+                        "Show variants corresponding to 5 top ranked genes, ranked  fromto to bottom, in Alzheimer.",
+                        "Show variants corresponding to 5 top ranked genes, ranked  fromto to bottom, in Alzheimer. If duplicate, show only once.",
+                        "Show gene, variants and ranks for SNPs with top ranks. If duplicate, show only once.",
+                        "List the variants with top ranks and corresponding all info associated with European Ancestry.",
+                        "Show all information corresponding to top 10 ranked genes, ranked from top to bottom in Alzheimer.",
+                        "Show only the gene and rank, corresponding to top 10 ranked genes, ranked from top to bottom in Alzheimer.",
+                        "Show only the gene and rank, corresponding to top 10 ranked genes, ranked from top to bottom in Alzheimer.If duplicate, show only once.",                        
+                        "How often does APOE gene occur in Alzheimer?",                       
+                        "What are the top 5 most frequently occurring gene in Alzheimer?",
+                        "How often does gene APOE occur for Alzheimer?",
+                        "Show genes and their frequency for ALzheimer that occur less frequently than APOE?", 
+                        "Plot variants corresponding to their ranks for 5 top ranked genes, ranked  from to to bottom, in Alzheimer. If duplicate, show only once.",
+                        "Plot the PGS score IDs and other info for the top 5 ranked genes with top ranks displayed first in Alzheimer.",
+                        "Plot a bar plot  top 5 most frequently occurring gene in Alzheimer.",
+                        "Plot the PGS score IDs and their count in European Ancestory for Alzheimer." ,
             ]  
         }  
     # Option 1: Visualize Database
@@ -336,20 +339,36 @@ with st.sidebar:
         # Define prompts for ChatGPT or GPT-4        
         prompts_dict = {  
             "ChatGPT": [  
-                        "Plot a chart SNP against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",
-                        "Plot rsids and genes against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once. show legends and use better visualization.",
-                        "Plot variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only.",
-                        "Plot variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",                        
+                         "Show all information corresponding to top ranked genes, ranked from top to bottom in Alzheimer.",
+                        "Show the gene and rank, ranked from top to bottom.",
+                        "Show the gene and rank, ranked from top to bottom. If duplicate, show only once.",
+                        "Display the genes with top ranks first and their ranks corresponding to each PGS score.",
+                        "How often does APOE gene occur in Alzheimer?",
+                        "Show all information corresponding to the SNP ids that are top-ranked for Alzheimer.",
+                        "What are the top 5 most frequently occurring gene in Alzheimer?",
+                        "How often does gene APOE occur for Alzheimer?",
+                        "Show genes and their frequency for ALzheimer that occur less frequently than APOE?",
+                        "Show all information for SNPs with top ranks. If duplicate, show only once.",
+                        "Show gene, variants and ranks for SNPs with top ranks. If duplicate, show only once.",
+                        "List the variants with top ranks and corresponding all info associated with European Ancestry.",
                         "Plot the PGS score IDs and other info for the top 5 genes with top ranks displayed first in Alzheimer.",
                         "Plot a bar plot  top 5 most frequently occurring gene in Alzheimer.",
                         "Plot the PGS score IDs and their count in European Ancestory for Alzheimer." ,
 
             ],  
             "GPT-4": [  
-                        "Plot a chart SNP against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",
-                        "Plot rsids and genes against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once. show legends and use better visualization.",
-                        "Plot variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only.",
-                        "Plot variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",                        
+                        "Show all information corresponding to top ranked genes, ranked from top to bottom in Alzheimer.",
+                        "Show the gene and rank, ranked from top to bottom.",
+                        "Show the gene and rank, ranked from top to bottom. If duplicate, show only once.",
+                        "Display the genes with top ranks first and their ranks corresponding to each PGS score.",
+                        "How often does APOE gene occur in Alzheimer?",
+                        "Show all information corresponding to the SNP ids that are top-ranked for Alzheimer.",
+                        "What are the top 5 most frequently occurring gene in Alzheimer?",
+                        "How often does gene APOE occur for Alzheimer?",
+                        "Show genes and their frequency for ALzheimer that occur less frequently than APOE?",
+                        "Show all information for SNPs with top ranks. If duplicate, show only once.",
+                        "Show gene, variants and ranks for SNPs with top ranks. If duplicate, show only once.",
+                        "List the variants with top ranks and corresponding all info associated with European Ancestry.",
                         "Plot the PGS score IDs and other info for the top 5 genes with top ranks displayed first in Alzheimer.",
                         "Plot a bar plot  top 5 most frequently occurring gene in Alzheimer.",
                         "Plot the PGS score IDs and their count in European Ancestory for Alzheimer." ,
@@ -464,7 +483,7 @@ with st.sidebar:
                         <li>
                             <strong>Steps to navigate this section:</strong>
                             <ul>
-                                <li><a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
+                                <li><a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
                                 <li>Use a question from the Prompts or enter your own question</li>
                                 <li>You can select show code and/or show prompt to show SQL & Python code and the prompt behind the scene</li>
                                 <li>Click on submit to execute and see the result</li>
