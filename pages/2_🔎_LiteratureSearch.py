@@ -237,7 +237,7 @@ if st.session_state.apikey == '' or st.session_state.endpoint == '' or st.sessio
                         <li>
                             <strong>Steps to navigate this section:</strong>
                             <ul>
-                                <li><a href='https://github.com/anath2110/GENEVIIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
+                                <li><a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li></li>
                                 <li><a href='https://serpapi.com/' target=_blank>Create a free SERP API account to get the private key to seach in Google Scholar</a> </li></li>                                
                                 <li>Use prompts like "articles with APOE and ALzheimer in PubMed"</li> 
                                 <li>Type or copy paste link of an article in the prompt/user input to retrieve its abstract</li>                                  
