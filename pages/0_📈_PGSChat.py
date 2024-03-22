@@ -330,6 +330,8 @@ with st.sidebar:
         # Define prompts for ChatGPT or GPT-4        
         prompts_dict = {  
             "ChatGPT": [  
+                        "Plot a heat map for top 5 ranked variants and their genes against ranks , ranked high to low, in Alzheimer.  No duplicates.",
+                        "Plot a heat map with variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer.  If duplicate show only once.", 
                         "Plot a chart SNP against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",
                         "Plot rsids and genes against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once. show legends and use better visualization.",
                         "Plot variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only.",
@@ -340,7 +342,9 @@ with st.sidebar:
 
             ],  
             "GPT-4": [  
-                       "Plot a chart SNP against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",
+                        "Plot a heat map for top 5 ranked variants and their genes against ranks , ranked high to low, in Alzheimer.  No duplicates.",
+                        "Plot a heat map with variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer.  If duplicate show only once.", 
+                        "Plot a chart SNP against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",
                         "Plot rsids and genes against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once. show legends and use better visualization.",
                         "Plot variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only.",
                         "Plot variants against ranks for the top 5 ranked genes, ranked high to low, in Alzheimer. use pgssnpmeta only. If duplicate show only once.",                        
