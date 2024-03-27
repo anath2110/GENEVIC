@@ -467,15 +467,14 @@ def run():
             f"""
             <div>
                 <ul style="list-style-type: none;">
-                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/GraphicalAbstract.png' target=_blank>GENEVIC Architecture</a> </li>                   
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Architecture_Workflow_Schema.png' target=_blank>GENEVIC Architecture</a> </li>                   
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Tutorial' target=_blank>Tutorial</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/InstallationGuide.md' target=_blank>Install and Run GENEVIC</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li>
                     <li> <a href='https://www.pgscatalog.org/' target=_blank>PGS Catalog Website</a> </li>
-                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Database' target=_blank>PGS Rank Database</a> </li>
-                    <!--<li> <a href='http://tinyurl.com/PGSrankDB' target=_blank>PGS Rank Database</a> </li>-->                    
-                    <!-- <li> <a href='Link' target=_blank>Publication</a></li> -->
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Database' target=_blank>PGS Rank Database</a> </li>                                    
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Test%20Runs' target=_blank>Test Cases</a> </li>
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Test%20Runs/TestRuns_Explanied.pdf' target=_blank>Test Cases Expalined</a> </li>
                    <li> <a href='https://github.com/anath2110/GENEVIC.git' target=_blank> Code Repository</a> </li>                    
                 </ul>
             </div>
