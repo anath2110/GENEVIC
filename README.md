@@ -165,7 +165,7 @@ This project was made possible by the dedicated efforts of our research team and
 Our heartfelt thanks go to each team member, department, and external contributor for their indispensable roles in the fruition of this project.
 
 ---
-## Cite Us
+<!---## Cite Us
 
 If you use this software in your research or wish to refer to its results, please cite the following paper:
 
@@ -188,8 +188,8 @@ If you are using LaTeX, you can use the following BibTeX entry:
 	  doi={xx.xxxx/yyyyy}\
 	}\
 \```
+--->
 
----
 ## Contact
 
 Your Name – nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
