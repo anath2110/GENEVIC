@@ -123,7 +123,7 @@ To run the application from the command line: `streamlit run app.py` \
 You will see the application load in your browser.
 
 > **Note**: For troubleshoot, see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/TSHOOT.md)
-> **Note**: For Azure Open AI subscriotion and set up : see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx)
+> **Note**: For Azure Open AI subscription and set up: see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx)
 ---
 
 ## Web Usage
@@ -167,7 +167,7 @@ Our heartfelt thanks go to each team member, department, and external contributo
 
 ---
 ## Cite Us
-<!-
+<!-- 
 If you use this software in your research or wish to refer to its results, please cite the following paper:
 
 Authors. (Year). Title. Journal, Volume(Issue), Page numbers. DOI
@@ -190,13 +190,15 @@ If you are using LaTeX, you can use the following BibTeX entry:
 	}\
 \```
 -->
-You may find the 
+Manuscript in review with Bioinformatics Journal.
+
+You may find the pre-print at [arXIV](https://arxiv.org/abs/2404.04299)
+
 ## Contact
 
-Your Name – nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
+Anindita Nath– nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
 
 Project Link: [https://github.com/anath2110/GENEVIC.git](https://github.com/anath2110/GENEVIC.git)
 
 Supplementary Materials: [https://github.com/anath2110/GENEVIC_Supplimentary.git](https://github.com/anath2110/GENEVIC_Supplimentary.git)
-
 ---
