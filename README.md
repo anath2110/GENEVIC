@@ -73,7 +73,7 @@ This is an intelligent chat assistant that is crafted to facilitate research in 
 Clone this repository:git clone https://github.com/anath2110/GENEVIC.git \
 From the terminal, navigate to ```cd [path-to-project-root-folder]```
 
-## Step 2. Set up enviromental variables
+## Step 2. Set up environmental variables
 
 Provide settings for Open AI and Database. You can either create a file named `secrets.env` file in the root of this project folder in your PC as below or do it using the app's GUI later on.
 
@@ -135,13 +135,13 @@ Access the web application at: [https://geneviic-anathjan24.streamlit.app/](http
 This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory](https://www.uth.edu/bioinfo/) and [Department of Health Data Science and Artificial Intelligence](https://sbmi.uth.edu/prospective-students/dsai.htm) at [McWilliams School of Biomedicalinformatics at UTHealth Houston](https://sbmi.uth.edu/).
 
 ### Team Members
-- **Ushijima Mwesigwa, Goh Savannah** : PGS Rank database development and evaluation of the application 
+- **Ushijima Mwesigwa, Goh Savannah**: PGS Rank database development and evaluation of the application 
 - **[Yulin Dai, PhD](https://sbmi.uth.edu/faculty-and-staff/yulin-dai.htm)** : Guided the database development and evaluation of the application 
 
 
 ### Supervision and Guidance
 - [**Xiaoqian Jiang, PhD**](https://sbmi.uth.edu/faculty-and-staff/xiaoqian-jiang.htm): Co-supervisor
-- [**Zhongping Zhao, PhD, MS**](https://sbmi.uth.edu/faculty-and-staff/zhongming-zhao.htm): Principal Investgator 
+- [**Zhongping Zhao, PhD, MS**](https://sbmi.uth.edu/faculty-and-staff/zhongming-zhao.htm): Principal Investigator 
 
 
 ### Major Reference Websites
