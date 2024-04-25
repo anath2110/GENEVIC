@@ -135,13 +135,14 @@ Access the web application at: [https://geneviic-anathjan24.streamlit.app/](http
 This project was made possible by the dedicated efforts of our research team and the comprehensive support provided by [Bioinformatics and Systems Medicine Laboratory](https://www.uth.edu/bioinfo/) and [Department of Health Data Science and Artificial Intelligence](https://sbmi.uth.edu/prospective-students/dsai.htm) at [McWilliams School of Biomedicalinformatics at UTHealth Houston](https://sbmi.uth.edu/).
 
 ### Team Members
-- **Ushijima Mwesigwa, Goh Savannah**: PGS Rank database development and evaluation of the application 
-- **[Yulin Dai, PhD](https://sbmi.uth.edu/faculty-and-staff/yulin-dai.htm)** : Guided the database development and evaluation of the application 
+- **Anindita Nath**: First Author, AI Programmer, Web Application Developer and Maintener, Database Designer and Manager
+- **Ushijima Mwesigwa, Goh Savannah**: Co-Author, PGS Rank database curator, application evaluator
+- **[Yulin Dai, PhD](https://sbmi.uth.edu/faculty-and-staff/yulin-dai.htm)** : Co-Author, Guided the database development and evaluation of the application 
 
 
 ### Supervision and Guidance
-- [**Xiaoqian Jiang, PhD**](https://sbmi.uth.edu/faculty-and-staff/xiaoqian-jiang.htm): Co-supervisor
-- [**Zhongping Zhao, PhD, MS**](https://sbmi.uth.edu/faculty-and-staff/zhongming-zhao.htm): Principal Investigator 
+- [**Xiaoqian Jiang, PhD**](https://sbmi.uth.edu/faculty-and-staff/xiaoqian-jiang.htm): Co-Author, Co-supervisor
+- [**Zhongping Zhao, PhD, MS**](https://sbmi.uth.edu/faculty-and-staff/zhongming-zhao.htm): Co-Author, Principal Investigator 
 
 
 ### Major Reference Websites
@@ -165,8 +166,8 @@ This project was made possible by the dedicated efforts of our research team and
 Our heartfelt thanks go to each team member, department, and external contributor for their indispensable roles in the fruition of this project.
 
 ---
-<!---## Cite Us
-
+## Cite Us
+<!-
 If you use this software in your research or wish to refer to its results, please cite the following paper:
 
 Authors. (Year). Title. Journal, Volume(Issue), Page numbers. DOI
@@ -188,8 +189,8 @@ If you are using LaTeX, you can use the following BibTeX entry:
 	  doi={xx.xxxx/yyyyy}\
 	}\
 \```
---->
-
+-->
+You may find the 
 ## Contact
 
 Your Name – nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
