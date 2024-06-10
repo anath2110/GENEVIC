@@ -63,10 +63,11 @@ This is an intelligent chat assistant that is crafted to facilitate research in 
 
 ## Local Installation
 ### Pre-requisites
-- [Python 3.10+](https://www.python.org/downloads/)
-        - **Important**: Python and the pip package manager must be in the path in Windows for the setup scripts to work.
-        - **Important**: Ensure you can run `python --version` from console.\On Ubuntu, you might need to run `sudo apt install python-is-python3` to link `python` to `python3`.
-- 
+- [Python 3.10+](https://www.python.org/downloads/)\
+  **Important**: Python and the pip package manager must be in the path in Windows for the setup scripts to work.\
+          Ensure you can run `python --version` from console.\
+          On Ubuntu, you might need to run `sudo apt install python-is-python3` to link `python` to `python3`.
+  
 ### Step-wise Instructions 
 ## Step 1. Clone this repository
 
