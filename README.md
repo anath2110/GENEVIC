@@ -1,6 +1,6 @@
 # GENEVIC
 ## GENetic data Exploration and Visualization Intelligent interactive Console
-This is an intelligent chat assistant that is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
+This is a smart chat assistant that is crafted to facilitate research in Biomedical Informatics for both beginners and intermediate-level researchers.
 ---
 ## Table of Contents
 - [Introduction](#introduction)
