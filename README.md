@@ -127,8 +127,16 @@ You will see the application load in your browser.
 > **Note**: For Azure Open AI subscription and set up: see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx)
 ---
 ## Docker Image 
-Download image  file: 
-Load image file in local system: 
+### **Prerequisites:**  
+Install 'Docker' in local system or create an account in Docker Cloud.
+### Download Docker Image: 
+*[Click here to download the zipped file](https://1drv.ms/u/s!AseKDnkTg9K9wckLnMNKKECPMs7MHQ?e=j7SBDG)*
+### Commands:
+>> Run the following commands from the directory where you loaded the above image (here, exmaple for Windows CMD prompt is shown):\
+  *docker load -i genevic-v1.tar*\
+  This command loads the Docker image from the tar file into your local Docker repository. \
+  *docker run -p 8501:8501 streamlit-app*\
+  This command runs the container, mapping port 8501 on your local machine to port 8501 in the container.
 
 ## Web Usage
 Access the web application at: [https://geneviic-anathjan24.streamlit.app/](https://geneviic-anathjan24.streamlit.app/)
