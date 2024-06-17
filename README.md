@@ -9,7 +9,7 @@ This is a smart chat assistant that is crafted to facilitate research in Biomedi
 	- [Gene API Chat](#gene-api-chat)
 	- [Literature Search](#literature-search)
 - [Local Installation](#local-installation)
-- [Docker Installation](docker-installation)
+- [Docker Installation](#docker-installation)
 - [Web Usage](#web-usage)
 - [Contact](#contact)
 ---
