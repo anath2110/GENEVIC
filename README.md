@@ -131,7 +131,7 @@ You will see the application load in your browser.
 ### **Prerequisites:**  
 Install 'Docker' in local system or create an account in Docker Cloud.
 ### Download Docker Image: 
-*[Click here to download the zipped file](https://1drv.ms/u/s!AseKDnkTg9K9wckLnMNKKECPMs7MHQ?e=j7SBDG)*
+*[Click here to download the zipped docker image file](https://1drv.ms/u/s!AseKDnkTg9K9wckLnMNKKECPMs7MHQ?e=j7SBDG)*
 ### Commands:
 >> Run the following commands from the directory where you loaded the above image (here, exmaple for Windows CMD prompt is shown):\
   *docker load -i genevic-v1.tar*\
