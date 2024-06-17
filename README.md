@@ -9,6 +9,7 @@ This is a smart chat assistant that is crafted to facilitate research in Biomedi
 	- [Gene API Chat](#gene-api-chat)
 	- [Literature Search](#literature-search)
 - [Local Installation](#local-installation)
+- [Docker Installation](docker-installation)
 - [Web Usage](#web-usage)
 - [Contact](#contact)
 ---
@@ -126,7 +127,7 @@ You will see the application load in your browser.
 > **Note**: For troubleshoot, see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/TSHOOT.md)
 > **Note**: For Azure Open AI subscription and set up: see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.docx)
 ---
-## Docker Image 
+## Docker Installation 
 ### **Prerequisites:**  
 Install 'Docker' in local system or create an account in Docker Cloud.
 ### Download Docker Image: 
@@ -137,7 +138,7 @@ Install 'Docker' in local system or create an account in Docker Cloud.
   This command loads the Docker image from the tar file into your local Docker repository. \
   *docker run -p 8501:8501 streamlit-app*\
   This command runs the container, mapping port 8501 on your local machine to port 8501 in the container.
-
+---
 ## Web Usage
 Access the web application at: [https://geneviic-anathjan24.streamlit.app/](https://geneviic-anathjan24.streamlit.app/)
 
