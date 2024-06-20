@@ -121,7 +121,7 @@ Run the command: `pip install -r requirements.txt`
 
 ### Step 3.4 Run the application locally
 
-To run the application from the command line: `streamlit run app.py` \
+To run the application from the command line: `streamlit run Home.py` \
 You will see the application load in your browser.
 
 > **Note**: For troubleshoot, see [here](https://github.com/anath2110/GENEVIC_Supplimentary/blob/main/Tutorial/TSHOOT.md)
