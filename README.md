@@ -23,7 +23,7 @@ This is a smart chat assistant that is crafted to facilitate research in Biomedi
     - **Literature Search:** Search for relevant literature evidence in well-known portals for a given search query.
 ---
 ## Project Structure
-![GENEVIC Project Structure](ssworkflow.png)
+![GENEVIC Project Structure](sshot_workflow.png)
 ---
 ## Features
 ### PGS Chat
