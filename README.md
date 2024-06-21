@@ -23,19 +23,7 @@ This is a smart chat assistant that is crafted to facilitate research in Biomedi
     - **Literature Search:** Search for relevant literature evidence in well-known portals for a given search query.
 ---
 ## Project Structure
-GENEVIC/
-│
-├── Home.py ──────Main entry point──────(calls)──────
-│ │── analyze.py                                     │
-│ ├── llm_steps.py                                   │
-│ ├── modified_pubmed.py                             │                         
-│ ├── modified_requests.py                           │
-▲                                                    │
-│                                                    ▼
-└─────(import)────── page/ ────── ────── ────── ──────                           
-│ ├── PGSChat.py #Imports and uses functions from analyze.py
-│ ├── GeneAPIChat.py 
-│ └── LiteratureSearch.py #Imports and uses functions from llmsteps.py
+![GENEVIC Project Structure](ssworkflow.png)
 ---
 ## Features
 ### PGS Chat
