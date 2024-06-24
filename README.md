@@ -142,7 +142,8 @@ Help Resources: [https://docs.docker.com/engine/install/](https://docs.docker.co
   This command runs the container, mapping port 8501 on your local machine to port 8501 in the container.
 ---
 ## Web Usage
-Access the web application at: [https://geneviic-anathjan24.streamlit.app/](https://geneviic-anathjan24.streamlit.app/)
+Access the web application at: [https://genevic-anath2024.streamlit.app/](https://genevic-anath2024.streamlit.app/)
+
 ---
 ## Credits
 
