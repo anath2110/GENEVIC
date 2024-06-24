@@ -60,9 +60,7 @@ This is a smart chat assistant that is crafted to facilitate research in Biomedi
 		 - articles with gene TREM2 and Schizophrenia in Arxiv
 		 - Search for articles with APOE gene name and trait Alzheimer	 	 	 	 
 - Displays the **name** and **links** of the articles for any given search query.
-- Displays the **abstract** of the article, given its link as search query.
- 	- Example:
-    		- [Link to the article](https://link-to-your-article)
+- Displays the **abstract** of the article, given its link as search query. 
 ---
 
 ## Local Installation
