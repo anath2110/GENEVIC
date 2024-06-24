@@ -468,7 +468,7 @@ def run():
             <div>
                 <ul style="list-style-type: none;">
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Architecture_Workflow_Schema.png' target=_blank>GENEVIC Architecture</a> </li> 
-                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Test%20Runs/Documentation_TestCasesExplained.pdf' target=_blank>Documentation</a> </li>
+                    <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Test%20Runs/Documenation_TestCasesExlained.pdf' target=_blank>Documentation</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/tree/main/Tutorial' target=_blank>Tutorial</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/InstallationGuide.md' target=_blank>Install and Run GENEVIC</a> </li>
                     <li> <a href='https://github.com/anath2110/GENEVIC_Supplementary/blob/main/Tutorial/Azure%20Open%20AI%20Documentation.pdf' target=_blank>Azure OpenAI Instructions</a> </li>
@@ -507,8 +507,7 @@ def run():
             <div>
                 <ul style="list-style-type: none;"> 
                     <li> <a href='https://www.uth.edu/bioinfo/' target=_blank>Bioinfo & Systems Medicine Lab </li>                   
-                    <li> <a href='https://sbmi.uth.edu/' target=_blank>Organization: MSBMI, UTHH</a> </li>
-                    <li><a href='http://tinyurl.com/GenVICcontact' target=_blank>Contact Us</a> </li>
+                    <li> <a href='https://sbmi.uth.edu/' target=_blank>Organization: MSBMI, UTHH</a> </li>                    
                 </ul>
             </div>
            
