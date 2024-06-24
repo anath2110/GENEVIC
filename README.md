@@ -214,6 +214,8 @@ Anindita Nath– nath.anindita2110@gmail.com, Anindita.Nath@uth.tmc.edu
 
 Project Link: [https://github.com/anath2110/GENEVIC.git](https://github.com/anath2110/GENEVIC.git) and 
 	      [https://github.com/bsml320/GENEVIC](https://github.com/bsml320/GENEVIC)
+       
+Supplementary Materials:[https://github.com/anath2110/GENEVIC_Supplimentary.git](https://github.com/anath2110/GENEVIC_Supplimentary.git) and
+			[https://github.com/bsml320/GENEVIC_Supplementary](https://github.com/bsml320/GENEVIC_Supplementary)
 
-Supplementary Materials: [https://github.com/anath2110/GENEVIC_Supplimentary.git](https://github.com/anath2110/GENEVIC_Supplimentary.git) and [https://github.com/bsml320/GENEVIC_Supplementary](https://github.com/bsml320/GENEVIC_Supplementary)
 ---
