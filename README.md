@@ -28,7 +28,7 @@ This is a smart chat assistant that is crafted to facilitate research in Biomedi
 ## Features
 ### PGS Chat
 - Retrieve information from and visualize custom database.
-- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](https://github.com/anath2110/GENEVIC_Supplimentary.git) for more information.
+- Demo database: **Polygenic Score (PGS) Rank Database**. See [Supplimentary Materials](https://github.com/anath2110/GENEVIC_Supplementary.git) for more information.
 - **Code Writer**: Auto-translate prompts/questions in natural language (e.g., English (US)) to SQL queries or Python code.
     - Steps to use this section:
     	- Use a question from the FAQ or enter your own question.
