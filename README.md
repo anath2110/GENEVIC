@@ -205,9 +205,9 @@ If you are using LaTeX, you can use the following BibTeX entry:
 	}\
 \```
 -->
-Manuscript in review with Bioinformatics Journal.
+Please cite us as 
 
-You may find the pre-print at [arXIV](https://arxiv.org/abs/2404.04299)
+Nath, A., Mwesigwa, S., Dai, Y., Jiang, X., Health, Z.Z., Informatics, M.S., Houston, U.H., Science, T.D., Intelligence, A., Tx, Center, M.A., Sciences, U.G., & Houston (2024). GENEVIC: GENetic data Exploration and Visualization via Intelligent interactive Console. Bioinformatics, 40.
 
 ## Contact
 
