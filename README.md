@@ -207,7 +207,7 @@ If you are using LaTeX, you can use the following BibTeX entry:
 -->
 Please cite us as 
 
-Nath, A., Mwesigwa, S., Dai, Y., Jiang, X., Health, Z.Z., Informatics, M.S., Houston, U.H., Science, T.D., Intelligence, A., Tx, Center, M.A., Sciences, U.G., & Houston (2024). GENEVIC: GENetic data Exploration and Visualization via Intelligent interactive Console. Bioinformatics, 40.
+Anindita Nath, Savannah Mwesigwa, Yulin Dai, Xiaoqian Jiang, Zhongming Zhao, GENEVIC: GENetic data Exploration and Visualization via Intelligent interactive Console, Bioinformatics, Volume 40, Issue 10, October 2024, btae500, https://doi.org/10.1093/bioinformatics/btae500
 
 ## Contact
 
